@@ -1,0 +1,63 @@
+Address,Bit,PLC_Tag,Description,DataType,FunctionCode,RegisterType
+1,,2711-PM-1303E,"2711-PM-1303E SM Circulating Pump : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+2,,2711-PM-1308,"2711-PM-1308 SM Loading Pump (Truck) : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+3,,"","Spare : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+4,,"","Spare : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+5,,2711-PM-1304A,"2711-PM-1304A EB Transfer Pump : MCU TYPE DOL2:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+6,,"","Spare : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+7,,2712-PM-0001,"2712-PM-0001 Drain Pump : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+8,,2630-PM-001A,"2630-PM-001A Pump of HP Flare : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+9,,"","SPARE : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+10,,2711-PM-1303A,"2711-PM-1303A SM Circulating Pump : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+11,,2713-PM-0002,"2713-PM-0002 Drain Pump : MCU TYPE DOL2:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+12,,2630-PM-002A,"2630-PM-002A Pump of Standby HP Flare : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+13,,2630-PM-003A,"2630-PM-003A Pump of LP Flare : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+14,,2711-PM-1302A,"2711-PM-1302A SM Transfer Pump : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+15,,2711-PM-1301A,"2711-PM-1301A SM Loading Pump (Railway) : PLC SSR1:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset Soft Starter ,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+16,,2713-PM-0001A,"2713-PM-0001A EB Transfer Pump : PLC SSR2:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset Soft Starter ,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+17,,2609-KM-8001A,"2609-KM-8001A Instrument air compressor : PLC SSR3:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset Soft Starter ,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+18,,2630-PM-001B,"2630-PM-001B Pump of HP Flare : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+19,,2630-PM-002B,"2630-PM-002B Pump of Standby HP Flare : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+20,,2630-PM-003B,"2630-PM-003B Pump of LP Flare : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+21,,2711-PM-1302B,"2711-PM-1302B SM Transfer Pump : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+22,,2711-PM-1303B,"2711-PM-1303B SM Circulating Pump : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+23,,2711-PM-1311,"2711-PM-1311 Drain Pump : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+24,,"","Spare : MCU TYPE DOL2:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+25,,2713-PM-0003,"2713-PM-0003 Drain Pump : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+26,,"","SPARE : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+27,,"","Spare : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+28,,2711-PM-1304B,"2711-PM-1304B EB Transfer Pump : MCU TYPE DOL2:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+29,,2711-PM-1307,"2711-PM-1307 Oligomer Loading Pump : MCU TYPE DOL2:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+30,,2711-PM-1301B,"2711-PM-1301B SM Loading Pump (Railway) : PLC SSR1:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset Soft Starter ,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+31,,2713-PM-0001B,"2713-PM-0001B EB Transfer Pump : PLC SSR2:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset Soft Starter ,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
