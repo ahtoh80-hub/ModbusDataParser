@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ModbusDataParser")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9839e2ef17bbc20615ade19572f4dab51fee521a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72af0a6f5eb4407a414d38a3693e4010115aa545")]
 [assembly: System.Reflection.AssemblyProductAttribute("ModbusDataParser")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ModbusDataParser")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

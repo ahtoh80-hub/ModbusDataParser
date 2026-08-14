@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using OfficeOpenXml;
+﻿using OfficeOpenXml;
 using ModbusDataParser.Models;
 
 namespace ModbusDataParser.Parsers
@@ -24,18 +21,12 @@ namespace ModbusDataParser.Parsers
             {
                 var sheetName = sheet.Name;
                 
-                if (sheetName.StartsWith("Interface") || sheetName.Contains("параметр"))
+                if (sheetName.StartsWith("Interface") || sheetName.Contains("параметр") || sheetName.Contains("Interface parameters"))
                 {
                     var interfaces = ParseInterfaceParameters(sheet, filePath);
                     result.InterfaceParameters.AddRange(interfaces);
                 }
-                else if (sheetName.Contains("Register Table") || sheetName.Contains("регистр"))
-                {
-                    var signals = ParseRegisterTable(sheet, filePath);
-                    result.Signals.AddRange(signals);
-                    result.SignalsBySheet[sheetName] = signals;
-                }
-                else if (sheetName.StartsWith("Register Table_Slave_"))
+                else if (sheetName.Contains("Register Table") || sheetName.Contains("регистр") || sheetName.StartsWith("Register Table_Slave_"))
                 {
                     var signals = ParseRegisterTable(sheet, filePath);
                     result.Signals.AddRange(signals);
@@ -52,20 +43,11 @@ namespace ModbusDataParser.Parsers
             
             if (sheet.Dimension == null) return result;
 
-            int startRow = 1;
-            for (int row = 1; row <= Math.Min(10, sheet.Dimension.Rows); row++)
-            {
-                var cellValue = sheet.Cells[row, 1]?.Text?.Trim() ?? "";
-                if (cellValue == "№ п/п" || cellValue == "1")
-                {
-                    startRow = row;
-                    break;
-                }
-            }
+            int startRow = FindHeaderRow(sheet, new[] { "№ п/п", "№", "1", "2" });
 
             for (int row = startRow + 1; row <= sheet.Dimension.Rows; row++)
             {
-                var firstCell = sheet.Cells[row, 1]?.Text?.Trim() ?? "";
+                var firstCell = GetCellText(sheet, row, 1);
                 if (string.IsNullOrEmpty(firstCell)) continue;
                 if (!int.TryParse(firstCell, out _)) continue;
 
@@ -103,31 +85,11 @@ namespace ModbusDataParser.Parsers
             
             if (sheet.Dimension == null) return result;
 
-            int startRow = 1;
-            for (int row = 1; row <= Math.Min(15, sheet.Dimension.Rows); row++)
-            {
-                var cellValue = sheet.Cells[row, 1]?.Text?.Trim() ?? "";
-                if (cellValue == "№" || cellValue == "№ п/п" || cellValue == "1")
-                {
-                    startRow = row;
-                    break;
-                }
-            }
+            int startRow = FindHeaderRow(sheet, new[] { "№", "№ п/п", "1", "2" });
 
-            int dataStartRow = startRow + 1;
-            for (int row = startRow + 1; row <= Math.Min(startRow + 5, sheet.Dimension.Rows); row++)
+            for (int row = startRow + 1; row <= sheet.Dimension.Rows; row++)
             {
-                var cellValue = sheet.Cells[row, 1]?.Text?.Trim() ?? "";
-                if (int.TryParse(cellValue, out _))
-                {
-                    dataStartRow = row;
-                    break;
-                }
-            }
-
-            for (int row = dataStartRow; row <= sheet.Dimension.Rows; row++)
-            {
-                var firstCell = sheet.Cells[row, 1]?.Text?.Trim() ?? "";
+                var firstCell = GetCellText(sheet, row, 1);
                 if (string.IsNullOrEmpty(firstCell)) continue;
                 if (!int.TryParse(firstCell, out _)) continue;
 
@@ -165,6 +127,22 @@ namespace ModbusDataParser.Parsers
             }
 
             return result;
+        }
+
+        private int FindHeaderRow(ExcelWorksheet sheet, string[] possibleHeaders)
+        {
+            if (sheet.Dimension == null) return 1;
+
+            for (int row = 1; row <= Math.Min(15, sheet.Dimension.Rows); row++)
+            {
+                var cellValue = GetCellText(sheet, row, 1);
+                foreach (var header in possibleHeaders)
+                {
+                    if (cellValue == header)
+                        return row;
+                }
+            }
+            return 1;
         }
 
         private string GetCellText(ExcelWorksheet sheet, int row, int col)

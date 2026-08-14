@@ -1,0 +1,6 @@
+C:\_Work\VSCode\ModbusDataParser\ModbusDataParser\obj\Release\net8.0-windows\win-x64\ModbusDataParser.csproj.AssemblyReference.cache
+C:\_Work\VSCode\ModbusDataParser\ModbusDataParser\obj\Release\net8.0-windows\win-x64\ModbusDataParser.GeneratedMSBuildEditorConfig.editorconfig
+C:\_Work\VSCode\ModbusDataParser\ModbusDataParser\obj\Release\net8.0-windows\win-x64\ModbusDataParser.AssemblyInfoInputs.cache
+C:\_Work\VSCode\ModbusDataParser\ModbusDataParser\obj\Release\net8.0-windows\win-x64\ModbusDataParser.AssemblyInfo.cs
+C:\_Work\VSCode\ModbusDataParser\ModbusDataParser\obj\Release\net8.0-windows\win-x64\ModbusDataParser.csproj.CoreCompileInputs.cache
+C:\_Work\VSCode\ModbusDataParser\ModbusDataParser\obj\Release\net8.0-windows\win-x64\ModbusDataParser.sourcelink.json

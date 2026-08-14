@@ -1,0 +1,877 @@
+Address,Bit,PLC_Tag,Description,DataType,FunctionCode,RegisterType
+1,,1115-PM-101A_PERMIT.MCU,MCU.1115-PM-101A - R-101 Recycle Pumps_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+2,,1115-PM-101A_FAULT.MCU,MCU.1115-PM-101A - R-101 Recycle Pumps_General Fault 1:Fault 0:Normal,BOOL,2,1
+3,,1115-PM-101A_STA.MCU,MCU.1115-PM-101A - R-101 Recycle Pumps_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+4,,1115-PM-101A_EM_STOP.MCU,MCU.1115-PM-101A - R-101 Recycle Pumps_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+5,,1115-PM-101A_SWITCH_ON.MCU,MCU.1115-PM-101A - R-101 Recycle Pumps_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+6,,1115-PM-101A_MCCB POSITION.MCU,MCU.1115-PM-101A - R-101 Recycle Pumps_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+7,,1115-PM-101A_REDAY.MCU,MCU.1115-PM-101A - R-101 Recycle Pumps_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+8,,1630-PM-214A_TX.MCU,MCU.1630-PM-214A - HP Flare K.O.Drum Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+9,,1630-PM-214A_PERMIT.MCU,MCU.1630-PM-214A - HP Flare K.O.Drum Pump_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+10,,1630-PM-214A_FAULT.MCU,MCU.1630-PM-214A - HP Flare K.O.Drum Pump_General Fault 1:Fault 0:Normal,BOOL,2,1
+11,,1630-PM-214A_STA.MCU,MCU.1630-PM-214A - HP Flare K.O.Drum Pump_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+12,,1630-PM-214A_EM_STOP.MCU,MCU.1630-PM-214A - HP Flare K.O.Drum Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+13,,1630-PM-214A_SWITCH_ON.MCU,MCU.1630-PM-214A - HP Flare K.O.Drum Pump_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+14,,1630-PM-214A_MCCB POSITION.MCU,MCU.1630-PM-214A - HP Flare K.O.Drum Pump_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+15,,1630-PM-214A_REDAY.MCU,MCU.1630-PM-214A - HP Flare K.O.Drum Pump_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+16,,1630-PM-605A_TX.MCU,MCU.1630-PM-605A - LP Flare K.O.Drum Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+17,,1630-PM-605A_PERMIT.MCU,MCU.1630-PM-605A - LP Flare K.O.Drum Pump_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+18,,1630-PM-605A_FAULT.MCU,MCU.1630-PM-605A - LP Flare K.O.Drum Pump_General Fault 1:Fault 0:Normal,BOOL,2,1
+19,,1630-PM-605A_STA.MCU,MCU.1630-PM-605A - LP Flare K.O.Drum Pump_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+20,,1630-PM-605A_EM_STOP.MCU,MCU.1630-PM-605A - LP Flare K.O.Drum Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+21,,1630-PM-605A_SWITCH_ON.MCU,MCU.1630-PM-605A - LP Flare K.O.Drum Pump_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+22,,1630-PM-605A_MCCB POSITION.MCU,MCU.1630-PM-605A - LP Flare K.O.Drum Pump_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+23,,1630-PM-605A_REDAY.MCU,MCU.1630-PM-605A - LP Flare K.O.Drum Pump_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+24,,1130-PM-305A_TX.MCU,MCU.1130-PM-305A - Offgas Absorber Bottom Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+25,,1130-PM-305A_PERMIT.MCU,MCU.1130-PM-305A - Offgas Absorber Bottom Pump_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+26,,1130-PM-305A_FAULT.MCU,MCU.1130-PM-305A - Offgas Absorber Bottom Pump_General Fault 1:Fault 0:Normal,BOOL,2,1
+27,,1130-PM-305A_STA.MCU,MCU.1130-PM-305A - Offgas Absorber Bottom Pump_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+28,,1130-PM-305A_EM_STOP.MCU,MCU.1130-PM-305A - Offgas Absorber Bottom Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+29,,1130-PM-305A_SWITCH_ON.MCU,MCU.1130-PM-305A - Offgas Absorber Bottom Pump_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+30,,1130-PM-305A_MCCB POSITION.MCU,MCU.1130-PM-305A - Offgas Absorber Bottom Pump_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+31,,1130-PM-305A_REDAY.MCU,MCU.1130-PM-305A - Offgas Absorber Bottom Pump_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+32,,1130-PM-306A_TX.MCU,MCU.1130-PM-306A - Rich Oil Stripper Bottom Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+33,,1130-PM-306A_PERMIT.MCU,MCU.1130-PM-306A - Rich Oil Stripper Bottom Pump_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+34,,1130-PM-306A_FAULT.MCU,MCU.1130-PM-306A - Rich Oil Stripper Bottom Pump_General Fault 1:Fault 0:Normal,BOOL,2,1
+35,,1130-PM-306A_STA.MCU,MCU.1130-PM-306A - Rich Oil Stripper Bottom Pump_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+36,,1130-PM-306A_EM_STOP.MCU,MCU.1130-PM-306A - Rich Oil Stripper Bottom Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+37,,1130-PM-306A_SWITCH_ON.MCU,MCU.1130-PM-306A - Rich Oil Stripper Bottom Pump_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+38,,1130-PM-306A_MCCB POSITION.MCU,MCU.1130-PM-306A - Rich Oil Stripper Bottom Pump_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+39,,1130-PM-306A_REDAY.MCU,MCU.1130-PM-306A - Rich Oil Stripper Bottom Pump_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+40,,1162-PM-602_TX.MCU,MCU.1162-PM-602 - SM Slop Drum water Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+41,,1162-PM-602_PERMIT.MCU,MCU.1162-PM-602 - SM Slop Drum water Pump_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+42,,1162-PM-602_FAULT.MCU,MCU.1162-PM-602 - SM Slop Drum water Pump_General Fault 1:Fault 0:Normal,BOOL,2,1
+43,,1162-PM-602_STA.MCU,MCU.1162-PM-602 - SM Slop Drum water Pump_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+44,,1162-PM-602_EM_STOP.MCU,MCU.1162-PM-602 - SM Slop Drum water Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+45,,1162-PM-602_SWITCH_ON.MCU,MCU.1162-PM-602 - SM Slop Drum water Pump_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+46,,1162-PM-602_MCCB POSITION.MCU,MCU.1162-PM-602 - SM Slop Drum water Pump_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+47,,1162-PM-602_REDAY.MCU,MCU.1162-PM-602 - SM Slop Drum water Pump_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+48,,1162-PM-603_TX.MCU,MCU.1162-PM-603 - SM Slop Drum HC Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+49,,1162-PM-603_PERMIT.MCU,MCU.1162-PM-603 - SM Slop Drum HC Pump_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+50,,1162-PM-603_FAULT.MCU,MCU.1162-PM-603 - SM Slop Drum HC Pump_General Fault 1:Fault 0:Normal,BOOL,2,1
+51,,1162-PM-603_STA.MCU,MCU.1162-PM-603 - SM Slop Drum HC Pump_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+52,,1162-PM-603_EM_STOP.MCU,MCU.1162-PM-603 - SM Slop Drum HC Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+53,,1162-PM-603_SWITCH_ON.MCU,MCU.1162-PM-603 - SM Slop Drum HC Pump_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+54,,1162-PM-603_MCCB POSITION.MCU,MCU.1162-PM-603 - SM Slop Drum HC Pump_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+55,,1162-PM-603_REDAY.MCU,MCU.1162-PM-603 - SM Slop Drum HC Pump_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+56,,2202-NK-SG-102-A.03OC_8_TX.MCU,MCU.2202-NK-SG-102-A.03OC_8 - SPARE_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+57,,2202-NK-SG-102-A.03OC_8_PERMIT.MCU,MCU.2202-NK-SG-102-A.03OC_8 - SPARE_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+58,,2202-NK-SG-102-A.03OC_8_FAULT.MCU,MCU.2202-NK-SG-102-A.03OC_8 - SPARE_General Fault 1:Fault 0:Normal,BOOL,2,1
+59,,2202-NK-SG-102-A.03OC_8_STA.MCU,MCU.2202-NK-SG-102-A.03OC_8 - SPARE_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+60,,2202-NK-SG-102-A.03OC_8_EM_STOP.MCU,MCU.2202-NK-SG-102-A.03OC_8 - SPARE_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+61,,2202-NK-SG-102-A.03OC_8_SWITCH_ON.MCU,MCU.2202-NK-SG-102-A.03OC_8 - SPARE_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+62,,2202-NK-SG-102-A.03OC_8_MCCB POSITION.MCU,MCU.2202-NK-SG-102-A.03OC_8 - SPARE_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+63,,2202-NK-SG-102-A.03OC_8_REDAY.MCU,MCU.2202-NK-SG-102-A.03OC_8 - SPARE_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+64,,1130-PM-311_TX.MCU,MCU.1130-PM-311 - Back-washed pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+65,,1130-PM-311_PERMIT.MCU,MCU.1130-PM-311 - Back-washed pump_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+66,,1130-PM-311_FAULT.MCU,MCU.1130-PM-311 - Back-washed pump_General Fault 1:Fault 0:Normal,BOOL,2,1
+67,,1130-PM-311_STA.MCU,MCU.1130-PM-311 - Back-washed pump_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+68,,1130-PM-311_EM_STOP.MCU,MCU.1130-PM-311 - Back-washed pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+69,,1130-PM-311_SWITCH_ON.MCU,MCU.1130-PM-311 - Back-washed pump_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+70,,1130-PM-311_MCCB POSITION.MCU,MCU.1130-PM-311 - Back-washed pump_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+71,,1130-PM-311_REDAY.MCU,MCU.1130-PM-311 - Back-washed pump_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+72,,1612-PM-611A_TX.MCU,MCU.1612-PM-611A - Desuperheater Water Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+73,,1612-PM-611A_PERMIT.MCU,MCU.1612-PM-611A - Desuperheater Water Pump_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+74,,1612-PM-611A_FAULT.MCU,MCU.1612-PM-611A - Desuperheater Water Pump_General Fault 1:Fault 0:Normal,BOOL,2,1
+75,,1612-PM-611A_STA.MCU,MCU.1612-PM-611A - Desuperheater Water Pump_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+76,,1612-PM-611A_EM_STOP.MCU,MCU.1612-PM-611A - Desuperheater Water Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+77,,1612-PM-611A_SWITCH_ON.MCU,MCU.1612-PM-611A - Desuperheater Water Pump_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+78,,1612-PM-611A_MCCB POSITION.MCU,MCU.1612-PM-611A - Desuperheater Water Pump_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+79,,1612-PM-611A_REDAY.MCU,MCU.1612-PM-611A - Desuperheater Water Pump_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+80,,1612-PM-001A_TX.MCU,MCU.1612-PM-001A - oil pump motor_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+81,,1612-PM-001A_PERMIT.MCU,MCU.1612-PM-001A - oil pump motor_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+82,,1612-PM-001A_FAULT.MCU,MCU.1612-PM-001A - oil pump motor_General Fault 1:Fault 0:Normal,BOOL,2,1
+83,,1612-PM-001A_STA.MCU,MCU.1612-PM-001A - oil pump motor_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+84,,1612-PM-001A_EM_STOP.MCU,MCU.1612-PM-001A - oil pump motor_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+85,,1612-PM-001A_SWITCH_ON.MCU,MCU.1612-PM-001A - oil pump motor_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+86,,1612-PM-001A_MCCB POSITION.MCU,MCU.1612-PM-001A - oil pump motor_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+87,,1612-PM-001A_REDAY.MCU,MCU.1612-PM-001A - oil pump motor_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+88,,1612-P-611A.HE-JB_TX.MCU,MCU.1612-P-611A.HE-JB - Oil heater junction box_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+89,,1612-P-611A.HE-JB_PERMIT.MCU,MCU.1612-P-611A.HE-JB - Oil heater junction box_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+90,,1612-P-611A.HE-JB_FAULT.MCU,MCU.1612-P-611A.HE-JB - Oil heater junction box_General Fault 1:Fault 0:Normal,BOOL,2,1
+91,,1612-P-611A.HE-JB_STA.MCU,MCU.1612-P-611A.HE-JB - Oil heater junction box_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+92,,1612-P-611A.HE-JB_EM_STOP.MCU,MCU.1612-P-611A.HE-JB - Oil heater junction box_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+93,,1612-P-611A.HE-JB_SWITCH_ON.MCU,MCU.1612-P-611A.HE-JB - Oil heater junction box_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+94,,1612-P-611A.HE-JB_MCCB POSITION.MCU,MCU.1612-P-611A.HE-JB - Oil heater junction box_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+95,,1612-P-611A.HE-JB_REDAY.MCU,MCU.1612-P-611A.HE-JB - Oil heater junction box_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+96,,1624-PM-614_TX.MCU,MCU.1624-PM-614 - Wasteoil Sump Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+97,,1624-PM-614_PERMIT.MCU,MCU.1624-PM-614 - Wasteoil Sump Pump_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+98,,1624-PM-614_FAULT.MCU,MCU.1624-PM-614 - Wasteoil Sump Pump_General Fault 1:Fault 0:Normal,BOOL,2,1
+99,,1624-PM-614_STA.MCU,MCU.1624-PM-614 - Wasteoil Sump Pump_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+100,,1624-PM-614_EM_STOP.MCU,MCU.1624-PM-614 - Wasteoil Sump Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+101,,1624-PM-614_SWITCH_ON.MCU,MCU.1624-PM-614 - Wasteoil Sump Pump_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+102,,1624-PM-614_MCCB POSITION.MCU,MCU.1624-PM-614 - Wasteoil Sump Pump_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+103,,1624-PM-614_REDAY.MCU,MCU.1624-PM-614 - Wasteoil Sump Pump_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+104,,2202-NK-SG-102-A.05OC_6_TX.MCU,MCU.2202-NK-SG-102-A.05OC_6 - SPARE_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+105,,2202-NK-SG-102-A.05OC_6_PERMIT.MCU,MCU.2202-NK-SG-102-A.05OC_6 - SPARE_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+106,,2202-NK-SG-102-A.05OC_6_FAULT.MCU,MCU.2202-NK-SG-102-A.05OC_6 - SPARE_General Fault 1:Fault 0:Normal,BOOL,2,1
+107,,2202-NK-SG-102-A.05OC_6_STA.MCU,MCU.2202-NK-SG-102-A.05OC_6 - SPARE_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+108,,2202-NK-SG-102-A.05OC_6_EM_STOP.MCU,MCU.2202-NK-SG-102-A.05OC_6 - SPARE_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+109,,2202-NK-SG-102-A.05OC_6_SWITCH_ON.MCU,MCU.2202-NK-SG-102-A.05OC_6 - SPARE_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+110,,2202-NK-SG-102-A.05OC_6_MCCB POSITION.MCU,MCU.2202-NK-SG-102-A.05OC_6 - SPARE_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+111,,2202-NK-SG-102-A.05OC_6_REDAY.MCU,MCU.2202-NK-SG-102-A.05OC_6 - SPARE_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+112,,1130-PM-302A_TX.MCU,MCU.1130-PM-302A - Process Condensate Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+113,,1130-PM-302A_PERMIT.MCU,MCU.1130-PM-302A - Process Condensate Pump_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+114,,1130-PM-302A_FAULT.MCU,MCU.1130-PM-302A - Process Condensate Pump_General Fault 1:Fault 0:Normal,BOOL,2,1
+115,,1130-PM-302A_STA.MCU,MCU.1130-PM-302A - Process Condensate Pump_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+116,,1130-PM-302A_EM_STOP.MCU,MCU.1130-PM-302A - Process Condensate Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+117,,1130-PM-302A_SWITCH_ON.MCU,MCU.1130-PM-302A - Process Condensate Pump_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+118,,1130-PM-302A_MCCB POSITION.MCU,MCU.1130-PM-302A - Process Condensate Pump_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+119,,1130-PM-302A_REDAY.MCU,MCU.1130-PM-302A - Process Condensate Pump_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+120,,1110-KM-101A-2_TX.MCU,MCU.1110-KM-101A-2 - Barring motor_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+121,,1110-KM-101A-2_PERMIT.MCU,MCU.1110-KM-101A-2 - Barring motor_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+122,,1110-KM-101A-2_FAULT.MCU,MCU.1110-KM-101A-2 - Barring motor_General Fault 1:Fault 0:Normal,BOOL,2,1
+123,,1110-KM-101A-2_STA.MCU,MCU.1110-KM-101A-2 - Barring motor_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+124,,1110-KM-101A-2_EM_STOP.MCU,MCU.1110-KM-101A-2 - Barring motor_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+125,,1110-KM-101A-2_SWITCH_ON.MCU,MCU.1110-KM-101A-2 - Barring motor_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+126,,1110-KM-101A-2_MCCB POSITION.MCU,MCU.1110-KM-101A-2 - Barring motor_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+127,,1110-KM-101A-2_REDAY.MCU,MCU.1110-KM-101A-2 - Barring motor_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+128,,1110-PM-131A_TX.MCU,MCU.1110-PM-131A - Oil pump motor 1_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+129,,1110-PM-131A_PERMIT.MCU,MCU.1110-PM-131A - Oil pump motor 1_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+130,,1110-PM-131A_FAULT.MCU,MCU.1110-PM-131A - Oil pump motor 1_General Fault 1:Fault 0:Normal,BOOL,2,1
+131,,1110-PM-131A_STA.MCU,MCU.1110-PM-131A - Oil pump motor 1_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+132,,1110-PM-131A_EM_STOP.MCU,MCU.1110-PM-131A - Oil pump motor 1_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+133,,1110-PM-131A_SWITCH_ON.MCU,MCU.1110-PM-131A - Oil pump motor 1_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+134,,1110-PM-131A_MCCB POSITION.MCU,MCU.1110-PM-131A - Oil pump motor 1_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+135,,1110-PM-131A_REDAY.MCU,MCU.1110-PM-131A - Oil pump motor 1_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+136,,1110-PM-131B_TX.MCU,MCU.1110-PM-131B - Oil pump motor 2_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+137,,1110-PM-131B_PERMIT.MCU,MCU.1110-PM-131B - Oil pump motor 2_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+138,,1110-PM-131B_FAULT.MCU,MCU.1110-PM-131B - Oil pump motor 2_General Fault 1:Fault 0:Normal,BOOL,2,1
+139,,1110-PM-131B_STA.MCU,MCU.1110-PM-131B - Oil pump motor 2_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+140,,1110-PM-131B_EM_STOP.MCU,MCU.1110-PM-131B - Oil pump motor 2_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+141,,1110-PM-131B_SWITCH_ON.MCU,MCU.1110-PM-131B - Oil pump motor 2_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+142,,1110-PM-131B_MCCB POSITION.MCU,MCU.1110-PM-131B - Oil pump motor 2_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+143,,1110-PM-131B_REDAY.MCU,MCU.1110-PM-131B - Oil pump motor 2_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+144,,1110-KM-101A.EH02_TX.MCU,MCU.1110-KM-101A.EH02 - Electric heater for crankcase_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+145,,1110-KM-101A.EH02_PERMIT.MCU,MCU.1110-KM-101A.EH02 - Electric heater for crankcase_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+146,,1110-KM-101A.EH02_FAULT.MCU,MCU.1110-KM-101A.EH02 - Electric heater for crankcase_General Fault 1:Fault 0:Normal,BOOL,2,1
+147,,1110-KM-101A.EH02_STA.MCU,MCU.1110-KM-101A.EH02 - Electric heater for crankcase_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+148,,1110-KM-101A.EH02_EM_STOP.MCU,MCU.1110-KM-101A.EH02 - Electric heater for crankcase_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+149,,1110-KM-101A.EH02_SWITCH_ON.MCU,MCU.1110-KM-101A.EH02 - Electric heater for crankcase_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+150,,1110-KM-101A.EH02_MCCB POSITION.MCU,MCU.1110-KM-101A.EH02 - Electric heater for crankcase_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+151,,1110-KM-101A.EH02_REDAY.MCU,MCU.1110-KM-101A.EH02 - Electric heater for crankcase_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+152,,1110-PM-133A_TX.MCU,MCU.1110-PM-133A - Water pump motor 1_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+153,,1110-PM-133A_PERMIT.MCU,MCU.1110-PM-133A - Water pump motor 1_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+154,,1110-PM-133A_FAULT.MCU,MCU.1110-PM-133A - Water pump motor 1_General Fault 1:Fault 0:Normal,BOOL,2,1
+155,,1110-PM-133A_STA.MCU,MCU.1110-PM-133A - Water pump motor 1_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+156,,1110-PM-133A_EM_STOP.MCU,MCU.1110-PM-133A - Water pump motor 1_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+157,,1110-PM-133A_SWITCH_ON.MCU,MCU.1110-PM-133A - Water pump motor 1_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+158,,1110-PM-133A_MCCB POSITION.MCU,MCU.1110-PM-133A - Water pump motor 1_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+159,,1110-PM-133A_REDAY.MCU,MCU.1110-PM-133A - Water pump motor 1_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+160,,1110-V-136.EH_TX.MCU,MCU.1110-V-136.EH - Electric heater for water tank_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+161,,1110-V-136.EH_PERMIT.MCU,MCU.1110-V-136.EH - Electric heater for water tank_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+162,,1110-V-136.EH_FAULT.MCU,MCU.1110-V-136.EH - Electric heater for water tank_General Fault 1:Fault 0:Normal,BOOL,2,1
+163,,1110-V-136.EH_STA.MCU,MCU.1110-V-136.EH - Electric heater for water tank_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+164,,1110-V-136.EH_EM_STOP.MCU,MCU.1110-V-136.EH - Electric heater for water tank_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+165,,1110-V-136.EH_SWITCH_ON.MCU,MCU.1110-V-136.EH - Electric heater for water tank_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+166,,1110-V-136.EH_MCCB POSITION.MCU,MCU.1110-V-136.EH - Electric heater for water tank_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+167,,1110-V-136.EH_REDAY.MCU,MCU.1110-V-136.EH - Electric heater for water tank_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+168,,1130-KM-301A_TX.MCU,MCU.1130-KM-301A - Barring motor_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+169,,1130-KM-301A_PERMIT.MCU,MCU.1130-KM-301A - Barring motor_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+170,,1130-KM-301A_FAULT.MCU,MCU.1130-KM-301A - Barring motor_General Fault 1:Fault 0:Normal,BOOL,2,1
+171,,1130-KM-301A_STA.MCU,MCU.1130-KM-301A - Barring motor_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+172,,1130-KM-301A_EM_STOP.MCU,MCU.1130-KM-301A - Barring motor_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+173,,1130-KM-301A_SWITCH_ON.MCU,MCU.1130-KM-301A - Barring motor_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+174,,1130-KM-301A_MCCB POSITION.MCU,MCU.1130-KM-301A - Barring motor_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+175,,1130-KM-301A_REDAY.MCU,MCU.1130-KM-301A - Barring motor_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+176,,2202-NK-SG-102-A.07OC_8_TX.MCU,MCU.2202-NK-SG-102-A.07OC_8 - SPARE_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+177,,2202-NK-SG-102-A.07OC_8_PERMIT.MCU,MCU.2202-NK-SG-102-A.07OC_8 - SPARE_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+178,,2202-NK-SG-102-A.07OC_8_FAULT.MCU,MCU.2202-NK-SG-102-A.07OC_8 - SPARE_General Fault 1:Fault 0:Normal,BOOL,2,1
+179,,2202-NK-SG-102-A.07OC_8_STA.MCU,MCU.2202-NK-SG-102-A.07OC_8 - SPARE_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+180,,2202-NK-SG-102-A.07OC_8_EM_STOP.MCU,MCU.2202-NK-SG-102-A.07OC_8 - SPARE_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+181,,2202-NK-SG-102-A.07OC_8_SWITCH_ON.MCU,MCU.2202-NK-SG-102-A.07OC_8 - SPARE_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+182,,2202-NK-SG-102-A.07OC_8_MCCB POSITION.MCU,MCU.2202-NK-SG-102-A.07OC_8 - SPARE_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+183,,2202-NK-SG-102-A.07OC_8_REDAY.MCU,MCU.2202-NK-SG-102-A.07OC_8 - SPARE_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+184,,1130-BLM-331A_TX.MCU,MCU.1130-BLM-331A - Oil station fans_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+185,,1130-BLM-331A_PERMIT.MCU,MCU.1130-BLM-331A - Oil station fans_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+186,,1130-BLM-331A_FAULT.MCU,MCU.1130-BLM-331A - Oil station fans_General Fault 1:Fault 0:Normal,BOOL,2,1
+187,,1130-BLM-331A_STA.MCU,MCU.1130-BLM-331A - Oil station fans_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+188,,1130-BLM-331A_EM_STOP.MCU,MCU.1130-BLM-331A - Oil station fans_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+189,,1130-BLM-331A_SWITCH_ON.MCU,MCU.1130-BLM-331A - Oil station fans_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+190,,1130-BLM-331A_MCCB POSITION.MCU,MCU.1130-BLM-331A - Oil station fans_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+191,,1130-BLM-331A_REDAY.MCU,MCU.1130-BLM-331A - Oil station fans_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+192,,1130-PM-331B_TX.MCU,MCU.1130-PM-331B - Auxiliary oil pump motor_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+193,,1130-PM-331B_PERMIT.MCU,MCU.1130-PM-331B - Auxiliary oil pump motor_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+194,,1130-PM-331B_FAULT.MCU,MCU.1130-PM-331B - Auxiliary oil pump motor_General Fault 1:Fault 0:Normal,BOOL,2,1
+195,,1130-PM-331B_STA.MCU,MCU.1130-PM-331B - Auxiliary oil pump motor_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+196,,1130-PM-331B_EM_STOP.MCU,MCU.1130-PM-331B - Auxiliary oil pump motor_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+197,,1130-PM-331B_SWITCH_ON.MCU,MCU.1130-PM-331B - Auxiliary oil pump motor_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+198,,1130-PM-331B_MCCB POSITION.MCU,MCU.1130-PM-331B - Auxiliary oil pump motor_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+199,,1130-PM-331B_REDAY.MCU,MCU.1130-PM-331B - Auxiliary oil pump motor_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+200,,1130-V-332A.EH_TX.MCU,MCU.1130-V-332A.EH - Lube oil tank heater_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+201,,1130-V-332A.EH_PERMIT.MCU,MCU.1130-V-332A.EH - Lube oil tank heater_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+202,,1130-V-332A.EH_FAULT.MCU,MCU.1130-V-332A.EH - Lube oil tank heater_General Fault 1:Fault 0:Normal,BOOL,2,1
+203,,1130-V-332A.EH_STA.MCU,MCU.1130-V-332A.EH - Lube oil tank heater_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+204,,1130-V-332A.EH_EM_STOP.MCU,MCU.1130-V-332A.EH - Lube oil tank heater_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+205,,1130-V-332A.EH_SWITCH_ON.MCU,MCU.1130-V-332A.EH - Lube oil tank heater_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+206,,1130-V-332A.EH_MCCB POSITION.MCU,MCU.1130-V-332A.EH - Lube oil tank heater_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+207,,1130-V-332A.EH_REDAY.MCU,MCU.1130-V-332A.EH - Lube oil tank heater_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+208,,1130-PM-331A_TX.MCU,MCU.1130-PM-331A - Main oil pump motor_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+209,,1130-PM-331A_PERMIT.MCU,MCU.1130-PM-331A - Main oil pump motor_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+210,,1130-PM-331A_FAULT.MCU,MCU.1130-PM-331A - Main oil pump motor_General Fault 1:Fault 0:Normal,BOOL,2,1
+211,,1130-PM-331A_STA.MCU,MCU.1130-PM-331A - Main oil pump motor_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+212,,1130-PM-331A_EM_STOP.MCU,MCU.1130-PM-331A - Main oil pump motor_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+213,,1130-PM-331A_SWITCH_ON.MCU,MCU.1130-PM-331A - Main oil pump motor_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+214,,1130-PM-331A_MCCB POSITION.MCU,MCU.1130-PM-331A - Main oil pump motor_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+215,,1130-PM-331A_REDAY.MCU,MCU.1130-PM-331A - Main oil pump motor_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+216,,2701-PK-1501A-M_TX.MCU,MCU.2701-PK-1501A-M - ITF Waste Gas FanAcoustic Enclosure Fan_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+217,,2701-PK-1501A-M_PERMIT.MCU,MCU.2701-PK-1501A-M - ITF Waste Gas FanAcoustic Enclosure Fan_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+218,,2701-PK-1501A-M_FAULT.MCU,MCU.2701-PK-1501A-M - ITF Waste Gas FanAcoustic Enclosure Fan_General Fault 1:Fault 0:Normal,BOOL,2,1
+219,,2701-PK-1501A-M_STA.MCU,MCU.2701-PK-1501A-M - ITF Waste Gas FanAcoustic Enclosure Fan_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+220,,2701-PK-1501A-M_EM_STOP.MCU,MCU.2701-PK-1501A-M - ITF Waste Gas FanAcoustic Enclosure Fan_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+221,,2701-PK-1501A-M_SWITCH_ON.MCU,MCU.2701-PK-1501A-M - ITF Waste Gas FanAcoustic Enclosure Fan_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+222,,2701-PK-1501A-M_MCCB POSITION.MCU,MCU.2701-PK-1501A-M - ITF Waste Gas FanAcoustic Enclosure Fan_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+223,,2701-PK-1501A-M_REDAY.MCU,MCU.2701-PK-1501A-M - ITF Waste Gas FanAcoustic Enclosure Fan_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+224,,2701-PM-1215_TX.MCU,MCU.2701-PM-1215 - Slop Drum HC Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+225,,2701-PM-1215_PERMIT.MCU,MCU.2701-PM-1215 - Slop Drum HC Pump_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+226,,2701-PM-1215_FAULT.MCU,MCU.2701-PM-1215 - Slop Drum HC Pump_General Fault 1:Fault 0:Normal,BOOL,2,1
+227,,2701-PM-1215_STA.MCU,MCU.2701-PM-1215 - Slop Drum HC Pump_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+228,,2701-PM-1215_EM_STOP.MCU,MCU.2701-PM-1215 - Slop Drum HC Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+229,,2701-PM-1215_SWITCH_ON.MCU,MCU.2701-PM-1215 - Slop Drum HC Pump_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+230,,2701-PM-1215_MCCB POSITION.MCU,MCU.2701-PM-1215 - Slop Drum HC Pump_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+231,,2701-PM-1215_REDAY.MCU,MCU.2701-PM-1215 - Slop Drum HC Pump_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+232,,2701-PM-1701A_TX.MCU,MCU.2701-PM-1701A - TBC Solution Dosing pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+233,,2701-PM-1701A_PERMIT.MCU,MCU.2701-PM-1701A - TBC Solution Dosing pump_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+234,,2701-PM-1701A_FAULT.MCU,MCU.2701-PM-1701A - TBC Solution Dosing pump_General Fault 1:Fault 0:Normal,BOOL,2,1
+235,,2701-PM-1701A_STA.MCU,MCU.2701-PM-1701A - TBC Solution Dosing pump_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+236,,2701-PM-1701A_EM_STOP.MCU,MCU.2701-PM-1701A - TBC Solution Dosing pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+237,,2701-PM-1701A_SWITCH_ON.MCU,MCU.2701-PM-1701A - TBC Solution Dosing pump_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+238,,2701-PM-1701A_MCCB POSITION.MCU,MCU.2701-PM-1701A - TBC Solution Dosing pump_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+239,,2701-PM-1701A_REDAY.MCU,MCU.2701-PM-1701A - TBC Solution Dosing pump_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+240,,2701-AGM-1701_TX.MCU,MCU.2701-AGM-1701 - TBC Solution StorageDrum 2701-V-1701Agitator_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+241,,2701-AGM-1701_PERMIT.MCU,MCU.2701-AGM-1701 - TBC Solution StorageDrum 2701-V-1701Agitator_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+242,,2701-AGM-1701_FAULT.MCU,MCU.2701-AGM-1701 - TBC Solution StorageDrum 2701-V-1701Agitator_General Fault 1:Fault 0:Normal,BOOL,2,1
+243,,2701-AGM-1701_STA.MCU,MCU.2701-AGM-1701 - TBC Solution StorageDrum 2701-V-1701Agitator_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+244,,2701-AGM-1701_EM_STOP.MCU,MCU.2701-AGM-1701 - TBC Solution StorageDrum 2701-V-1701Agitator_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+245,,2701-AGM-1701_SWITCH_ON.MCU,MCU.2701-AGM-1701 - TBC Solution StorageDrum 2701-V-1701Agitator_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+246,,2701-AGM-1701_MCCB POSITION.MCU,MCU.2701-AGM-1701 - TBC Solution StorageDrum 2701-V-1701Agitator_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+247,,2701-AGM-1701_REDAY.MCU,MCU.2701-AGM-1701 - TBC Solution StorageDrum 2701-V-1701Agitator_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+248,,2701-PM-1206A_TX.MCU,MCU.2701-PM-1206A - Benzene-Toluene FractionTransfer Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+249,,2701-PM-1206A_PERMIT.MCU,MCU.2701-PM-1206A - Benzene-Toluene FractionTransfer Pump_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+250,,2701-PM-1206A_FAULT.MCU,MCU.2701-PM-1206A - Benzene-Toluene FractionTransfer Pump_General Fault 1:Fault 0:Normal,BOOL,2,1
+251,,2701-PM-1206A_STA.MCU,MCU.2701-PM-1206A - Benzene-Toluene FractionTransfer Pump_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+252,,2701-PM-1206A_EM_STOP.MCU,MCU.2701-PM-1206A - Benzene-Toluene FractionTransfer Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+253,,2701-PM-1206A_SWITCH_ON.MCU,MCU.2701-PM-1206A - Benzene-Toluene FractionTransfer Pump_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+254,,2701-PM-1206A_MCCB POSITION.MCU,MCU.2701-PM-1206A - Benzene-Toluene FractionTransfer Pump_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+255,,2701-PM-1206A_REDAY.MCU,MCU.2701-PM-1206A - Benzene-Toluene FractionTransfer Pump_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+256,,2202-NK-SG-102-A.11OC_8_TX.MCU,MCU.2202-NK-SG-102-A.11OC_8 - SPARE_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+257,,2202-NK-SG-102-A.11OC_8_PERMIT.MCU,MCU.2202-NK-SG-102-A.11OC_8 - SPARE_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+258,,2202-NK-SG-102-A.11OC_8_FAULT.MCU,MCU.2202-NK-SG-102-A.11OC_8 - SPARE_General Fault 1:Fault 0:Normal,BOOL,2,1
+259,,2202-NK-SG-102-A.11OC_8_STA.MCU,MCU.2202-NK-SG-102-A.11OC_8 - SPARE_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+260,,2202-NK-SG-102-A.11OC_8_EM_STOP.MCU,MCU.2202-NK-SG-102-A.11OC_8 - SPARE_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+261,,2202-NK-SG-102-A.11OC_8_SWITCH_ON.MCU,MCU.2202-NK-SG-102-A.11OC_8 - SPARE_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+262,,2202-NK-SG-102-A.11OC_8_MCCB POSITION.MCU,MCU.2202-NK-SG-102-A.11OC_8 - SPARE_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+263,,2202-NK-SG-102-A.11OC_8_REDAY.MCU,MCU.2202-NK-SG-102-A.11OC_8 - SPARE_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+264,,1130-PM-301A_TX.MCU,MCU.1130-PM-301A - DM Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+265,,1130-PM-301A_EM_STOP.MCU,MCU.1130-PM-301A - DM Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+266,,1130-PM-303A_TX.MCU,MCU.1130-PM-303A - Condensate Stripper Bottom Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+267,,1130-PM-303A_EM_STOP.MCU,MCU.1130-PM-303A - Condensate Stripper Bottom Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+268,,1612-PM-606A_TX.MCU,MCU.1612-PM-606A - LLP Condensate Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+269,,1612-PM-606A_EM_STOP.MCU,MCU.1612-PM-606A - LLP Condensate Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+270,,2701-PM-1202A_TX.MCU,MCU.2701-PM-1202A - Ethylbenzene transfer pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+271,,2701-PM-1202A_EM_STOP.MCU,MCU.2701-PM-1202A - Ethylbenzene transfer pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+272,,2701-PM-1201A_TX.MCU,MCU.2701-PM-1201A - Benzene transfer pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+273,,2701-PM-1201A_EM_STOP.MCU,MCU.2701-PM-1201A - Benzene transfer pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+274,,2701-PM-1204A_TX.MCU,MCU.2701-PM-1204A - DM Transfer Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+275,,2701-PM-1204A_EM_STOP.MCU,MCU.2701-PM-1204A - DM Transfer Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+276,,2701-PM-1203_TX.MCU,MCU.2701-PM-1203 - Off-Spec EB Transfer Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+277,,2701-PM-1203_EM_STOP.MCU,MCU.2701-PM-1203 - Off-Spec EB Transfer Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+278,,2701-PM-1207A_TX.MCU,MCU.2701-PM-1207A - Heavy Tar Loading Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+279,,2701-PM-1207A_EM_STOP.MCU,MCU.2701-PM-1207A - Heavy Tar Loading Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+280,,2701-PM-1205B_TX.MCU,MCU.2701-PM-1205B - SM Transfer Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+281,,2701-PM-1205B_EM_STOP.MCU,MCU.2701-PM-1205B - SM Transfer Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+282,,2202-NK-SG-102-A.SS01_1_PLC_TX.PLC,PLC.2202-NK-SG-102-A.SS01_1 - inlet switch+SOFT STARTER_SSR PLC Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+283,,1130-PM-301A_M1_PERMIT.PLC,PLC.1130-PM-301A - DM Pump_Circuit 1_Permitted State 1:Permit 0:Not Permit,BOOL,2,1
+284,,1130-PM-301A_Q1_READY.PLC,PLC.1130-PM-301A - DM Pump_Circuit 1_Q1_Ready 1:Ready 0:Not Ready,BOOL,2,1
+285,,1130-PM-301A_Q1_BYPS.PLC,PLC.1130-PM-301A - DM Pump_Circuit 1_Q1_Motor 1 Operation 1:Running 0:Stopped,BOOL,2,1
+286,,1130-PM-301A_Q1_F.PLC,PLC.1130-PM-301A - DM Pump_Circuit 1_Q1_Motor 1 Fault 1:Fault 0:Normal,BOOL,2,1
+287,,1130-PM-301A_QF1_ATUO.PLC,PLC.1130-PM-301A - DM Pump_Circuit 1_Q1_Remote_Local 1:Remote 0:Local,BOOL,2,1
+288,,1130-PM-301A_QF1_STA.PLC,PLC.1130-PM-301A - DM Pump_Circuit 1_QF1_Switch Closing 1:Closed 0:Open,BOOL,2,1
+289,,1130-PM-303A_M2_PERMIT.PLC,PLC.1130-PM-303A - Condensate Stripper Bottom Pump_Circuit 2_Permitted State 1:Permit 0:Not Permit,BOOL,2,1
+290,,1130-PM-303A_Q2_READY.PLC,PLC.1130-PM-303A - Condensate Stripper Bottom Pump_Circuit 2_Q2_Ready 1:Ready 0:Not Ready,BOOL,2,1
+291,,1130-PM-303A_Q2_BYPS.PLC,PLC.1130-PM-303A - Condensate Stripper Bottom Pump_Circuit 2_Q2_Motor 2 Operation 1:Running 0:Stopped,BOOL,2,1
+292,,1130-PM-303A_Q2_F.PLC,PLC.1130-PM-303A - Condensate Stripper Bottom Pump_Circuit 2_Q2_Motor 2 Fault 1:Fault 0:Normal,BOOL,2,1
+293,,1130-PM-303A_QF2_ATUO.PLC,PLC.1130-PM-303A - Condensate Stripper Bottom Pump_Circuit 2_Q2_Remote_Local 1:Remote 0:Local,BOOL,2,1
+294,,1130-PM-303A_QF2_STA.PLC,PLC.1130-PM-303A - Condensate Stripper Bottom Pump_Circuit 2_QF2_Switch Closing 1:Closed 0:Open,BOOL,2,1
+295,,1612-PM-606A_M3_PERMIT.PLC,PLC.1612-PM-606A - LLP Condensate Pump_Circuit 3_Permitted State 1:Permit 0:Not Permit,BOOL,2,1
+296,,1612-PM-606A_Q3_READY.PLC,PLC.1612-PM-606A - LLP Condensate Pump_Circuit 3_Q3_Ready 1:Ready 0:Not Ready,BOOL,2,1
+297,,1612-PM-606A_Q3_BYPS.PLC,PLC.1612-PM-606A - LLP Condensate Pump_Circuit 3_Q3_Motor 3 Operation 1:Running 0:Stopped,BOOL,2,1
+298,,1612-PM-606A_Q3_F.PLC,PLC.1612-PM-606A - LLP Condensate Pump_Circuit 3_Q3_Motor 3 Fault 1:Fault 0:Normal,BOOL,2,1
+299,,1612-PM-606A_QF3_ATUO.PLC,PLC.1612-PM-606A - LLP Condensate Pump_Circuit 3_Q3_Remote_Local 1:Remote 0:Local,BOOL,2,1
+300,,1612-PM-606A_QF3_STA.PLC,PLC.1612-PM-606A - LLP Condensate Pump_Circuit 3_QF3_Switch Closing 1:Closed 0:Open,BOOL,2,1
+301,,2202-NK-SG-102-A.SS03_1_PLC_TX.PLC,PLC.2202-NK-SG-102-A.SS03_1 - inlet switch+SOFT STARTER_SSR PLC Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+302,,2701-PM-1202A_M1_PERMIT.PLC,PLC.2701-PM-1202A - Ethylbenzene transfer pump_Circuit 1_Permitted State 1:Permit 0:Not Permit,BOOL,2,1
+303,,2701-PM-1202A_Q1_READY.PLC,PLC.2701-PM-1202A - Ethylbenzene transfer pump_Circuit 1_Q1_Ready 1:Ready 0:Not Ready,BOOL,2,1
+304,,2701-PM-1202A_Q1_BYPS.PLC,PLC.2701-PM-1202A - Ethylbenzene transfer pump_Circuit 1_Q1_Motor 1 Operation 1:Running 0:Stopped,BOOL,2,1
+305,,2701-PM-1202A_Q1_F.PLC,PLC.2701-PM-1202A - Ethylbenzene transfer pump_Circuit 1_Q1_Motor 1 Fault 1:Fault 0:Normal,BOOL,2,1
+306,,2701-PM-1202A_QF1_ATUO.PLC,PLC.2701-PM-1202A - Ethylbenzene transfer pump_Circuit 1_Q1_Remote_Local 1:Remote 0:Local,BOOL,2,1
+307,,2701-PM-1202A_QF1_STA.PLC,PLC.2701-PM-1202A - Ethylbenzene transfer pump_Circuit 1_QF1_Switch Closing 1:Closed 0:Open,BOOL,2,1
+308,,2701-PM-1201A_M2_PERMIT.PLC,PLC.2701-PM-1201A - Benzene transfer pump_Circuit 2_Permitted State 1:Permit 0:Not Permit,BOOL,2,1
+309,,2701-PM-1201A_Q2_READY.PLC,PLC.2701-PM-1201A - Benzene transfer pump_Circuit 2_Q2_Ready 1:Ready 0:Not Ready,BOOL,2,1
+310,,2701-PM-1201A_Q2_BYPS.PLC,PLC.2701-PM-1201A - Benzene transfer pump_Circuit 2_Q2_Motor 2 Operation 1:Running 0:Stopped,BOOL,2,1
+311,,2701-PM-1201A_Q2_F.PLC,PLC.2701-PM-1201A - Benzene transfer pump_Circuit 2_Q2_Motor 2 Fault 1:Fault 0:Normal,BOOL,2,1
+312,,2701-PM-1201A_QF2_ATUO.PLC,PLC.2701-PM-1201A - Benzene transfer pump_Circuit 2_Q2_Remote_Local 1:Remote 0:Local,BOOL,2,1
+313,,2701-PM-1201A_QF2_STA.PLC,PLC.2701-PM-1201A - Benzene transfer pump_Circuit 2_QF2_Switch Closing 1:Closed 0:Open,BOOL,2,1
+314,,2701-PM-1204A_M3_PERMIT.PLC,PLC.2701-PM-1204A - DM Transfer Pump_Circuit 3_Permitted State 1:Permit 0:Not Permit,BOOL,2,1
+315,,2701-PM-1204A_Q3_READY.PLC,PLC.2701-PM-1204A - DM Transfer Pump_Circuit 3_Q3_Ready 1:Ready 0:Not Ready,BOOL,2,1
+316,,2701-PM-1204A_Q3_BYPS.PLC,PLC.2701-PM-1204A - DM Transfer Pump_Circuit 3_Q3_Motor 3 Operation 1:Running 0:Stopped,BOOL,2,1
+317,,2701-PM-1204A_Q3_F.PLC,PLC.2701-PM-1204A - DM Transfer Pump_Circuit 3_Q3_Motor 3 Fault 1:Fault 0:Normal,BOOL,2,1
+318,,2701-PM-1204A_QF3_ATUO.PLC,PLC.2701-PM-1204A - DM Transfer Pump_Circuit 3_Q3_Remote_Local 1:Remote 0:Local,BOOL,2,1
+319,,2701-PM-1204A_QF3_STA.PLC,PLC.2701-PM-1204A - DM Transfer Pump_Circuit 3_QF3_Switch Closing 1:Closed 0:Open,BOOL,2,1
+320,,2202-NK-SG-102-A.SS05_1_PLC_TX.PLC,PLC.2202-NK-SG-102-A.SS05_1 - inlet switch+SOFT STARTER_SSR PLC Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+321,,2701-PM-1203_M1_PERMIT.PLC,PLC.2701-PM-1203 - Off-Spec EB Transfer Pump_Circuit 1_Permitted State 1:Permit 0:Not Permit,BOOL,2,1
+322,,2701-PM-1203_Q1_READY.PLC,PLC.2701-PM-1203 - Off-Spec EB Transfer Pump_Circuit 1_Q1_Ready 1:Ready 0:Not Ready,BOOL,2,1
+323,,2701-PM-1203_Q1_BYPS.PLC,PLC.2701-PM-1203 - Off-Spec EB Transfer Pump_Circuit 1_Q1_Motor 1 Operation 1:Running 0:Stopped,BOOL,2,1
+324,,2701-PM-1203_Q1_F.PLC,PLC.2701-PM-1203 - Off-Spec EB Transfer Pump_Circuit 1_Q1_Motor 1 Fault 1:Fault 0:Normal,BOOL,2,1
+325,,2701-PM-1203_QF1_ATUO.PLC,PLC.2701-PM-1203 - Off-Spec EB Transfer Pump_Circuit 1_Q1_Remote_Local 1:Remote 0:Local,BOOL,2,1
+326,,2701-PM-1203_QF1_STA.PLC,PLC.2701-PM-1203 - Off-Spec EB Transfer Pump_Circuit 1_QF1_Switch Closing 1:Closed 0:Open,BOOL,2,1
+327,,2701-PM-1207A_M2_PERMIT.PLC,PLC.2701-PM-1207A - Heavy Tar Loading Pump_Circuit 2_Permitted State 1:Permit 0:Not Permit,BOOL,2,1
+328,,2701-PM-1207A_Q2_READY.PLC,PLC.2701-PM-1207A - Heavy Tar Loading Pump_Circuit 2_Q2_Ready 1:Ready 0:Not Ready,BOOL,2,1
+329,,2701-PM-1207A_Q2_BYPS.PLC,PLC.2701-PM-1207A - Heavy Tar Loading Pump_Circuit 2_Q2_Motor 2 Operation 1:Running 0:Stopped,BOOL,2,1
+330,,2701-PM-1207A_Q2_F.PLC,PLC.2701-PM-1207A - Heavy Tar Loading Pump_Circuit 2_Q2_Motor 2 Fault 1:Fault 0:Normal,BOOL,2,1
+331,,2701-PM-1207A_QF2_ATUO.PLC,PLC.2701-PM-1207A - Heavy Tar Loading Pump_Circuit 2_Q2_Remote_Local 1:Remote 0:Local,BOOL,2,1
+332,,2701-PM-1207A_QF2_STA.PLC,PLC.2701-PM-1207A - Heavy Tar Loading Pump_Circuit 2_QF2_Switch Closing 1:Closed 0:Open,BOOL,2,1
+333,,2701-PM-1205B_M3_PERMIT.PLC,PLC.2701-PM-1205B - SM Transfer Pump_Circuit 3_Permitted State 1:Permit 0:Not Permit,BOOL,2,1
+334,,2701-PM-1205B_Q3_READY.PLC,PLC.2701-PM-1205B - SM Transfer Pump_Circuit 3_Q3_Ready 1:Ready 0:Not Ready,BOOL,2,1
+335,,2701-PM-1205B_Q3_BYPS.PLC,PLC.2701-PM-1205B - SM Transfer Pump_Circuit 3_Q3_Motor 3 Operation 1:Running 0:Stopped,BOOL,2,1
+336,,2701-PM-1205B_Q3_F.PLC,PLC.2701-PM-1205B - SM Transfer Pump_Circuit 3_Q3_Motor 3 Fault 1:Fault 0:Normal,BOOL,2,1
+337,,2701-PM-1205B_QF3_ATUO.PLC,PLC.2701-PM-1205B - SM Transfer Pump_Circuit 3_Q3_Remote_Local 1:Remote 0:Local,BOOL,2,1
+338,,2701-PM-1205B_QF3_STA.PLC,PLC.2701-PM-1205B - SM Transfer Pump_Circuit 3_QF3_Switch Closing 1:Closed 0:Open,BOOL,2,1
+339,,2701-PK-1201A-M_TX.VFD,VFD.2701-PK-1201A-M - ITF Waste Gas Fan_VFD Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+340,,2701-PK-1201A-M_TX.PLC,PLC.2701-PK-1201A-M - ITF Waste Gas Fan_VFD PLC Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+341,,2701-PK-1201A-M_PERMIT.PLC,PLC.2701-PK-1201A-M - ITF Waste Gas Fan_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+342,,2701-PK-1201A-M_LOC_REM.PLC,PLC.2701-PK-1201A-M - ITF Waste Gas Fan_Remote_Local 1:Remote 0:Local,BOOL,2,1
+343,,2701-PK-1201A-M_STA.PLC,PLC.2701-PK-1201A-M - ITF Waste Gas Fan_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+344,,2701-PK-1201A-M_REDAY.PLC,PLC.2701-PK-1201A-M - ITF Waste Gas Fan_Motor ALLReady 1:Ready 0:Not Ready,BOOL,2,1
+345,,2701-PK-1201A-M_SWITCH_ON.PLC,PLC.2701-PK-1201A-M - ITF Waste Gas Fan_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+346,,2701-PK-1201A-M_DOORSTA.PLC,PLC.2701-PK-1201A-M - ITF Waste Gas Fan_Cabinet Door Closed 1:Cabinet Door Closed 0:Open,BOOL,2,1
+347,,2701-PK-1201A-M_FAULT.PLC,PLC.2701-PK-1201A-M - ITF Waste Gas Fan_General Fault 1:Fault 0:Normal,BOOL,2,1
+348,,2701-PK-1201A-M_EM_STOP.PLC,PLC.2701-PK-1201A-M - ITF Waste Gas Fan_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+349,,1115-PM-101B_TX.MCU,MCU.1115-PM-101B - R-101 Recycle Pumps_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+350,,1115-PM-101B_PERMIT.MCU,MCU.1115-PM-101B - R-101 Recycle Pumps_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+351,,1115-PM-101B_FAULT.MCU,MCU.1115-PM-101B - R-101 Recycle Pumps_General Fault 1:Fault 0:Normal,BOOL,2,1
+352,,1115-PM-101B_STA.MCU,MCU.1115-PM-101B - R-101 Recycle Pumps_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+353,,1115-PM-101B_EM_STOP.MCU,MCU.1115-PM-101B - R-101 Recycle Pumps_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+354,,1115-PM-101B_SWITCH_ON.MCU,MCU.1115-PM-101B - R-101 Recycle Pumps_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+355,,1115-PM-101B_MCCB POSITION.MCU,MCU.1115-PM-101B - R-101 Recycle Pumps_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+356,,1115-PM-101B_REDAY.MCU,MCU.1115-PM-101B - R-101 Recycle Pumps_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+357,,1630-PM-214B_TX.MCU,MCU.1630-PM-214B - HP Flare K.O.Drum Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+358,,1630-PM-214B_PERMIT.MCU,MCU.1630-PM-214B - HP Flare K.O.Drum Pump_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+359,,1630-PM-214B_FAULT.MCU,MCU.1630-PM-214B - HP Flare K.O.Drum Pump_General Fault 1:Fault 0:Normal,BOOL,2,1
+360,,1630-PM-214B_STA.MCU,MCU.1630-PM-214B - HP Flare K.O.Drum Pump_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+361,,1630-PM-214B_EM_STOP.MCU,MCU.1630-PM-214B - HP Flare K.O.Drum Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+362,,1630-PM-214B_SWITCH_ON.MCU,MCU.1630-PM-214B - HP Flare K.O.Drum Pump_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+363,,1630-PM-214B_MCCB POSITION.MCU,MCU.1630-PM-214B - HP Flare K.O.Drum Pump_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+364,,1630-PM-214B_REDAY.MCU,MCU.1630-PM-214B - HP Flare K.O.Drum Pump_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+365,,1630-PM-605B_TX.MCU,MCU.1630-PM-605B - LP Flare K.O.Drum Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+366,,1630-PM-605B_PERMIT.MCU,MCU.1630-PM-605B - LP Flare K.O.Drum Pump_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+367,,1630-PM-605B_FAULT.MCU,MCU.1630-PM-605B - LP Flare K.O.Drum Pump_General Fault 1:Fault 0:Normal,BOOL,2,1
+368,,1630-PM-605B_STA.MCU,MCU.1630-PM-605B - LP Flare K.O.Drum Pump_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+369,,1630-PM-605B_EM_STOP.MCU,MCU.1630-PM-605B - LP Flare K.O.Drum Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+370,,1630-PM-605B_SWITCH_ON.MCU,MCU.1630-PM-605B - LP Flare K.O.Drum Pump_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+371,,1630-PM-605B_MCCB POSITION.MCU,MCU.1630-PM-605B - LP Flare K.O.Drum Pump_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+372,,1630-PM-605B_REDAY.MCU,MCU.1630-PM-605B - LP Flare K.O.Drum Pump_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+373,,1130-PM-305B_TX.MCU,MCU.1130-PM-305B - Offgas Absorber Bottom Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+374,,1130-PM-305B_PERMIT.MCU,MCU.1130-PM-305B - Offgas Absorber Bottom Pump_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+375,,1130-PM-305B_FAULT.MCU,MCU.1130-PM-305B - Offgas Absorber Bottom Pump_General Fault 1:Fault 0:Normal,BOOL,2,1
+376,,1130-PM-305B_STA.MCU,MCU.1130-PM-305B - Offgas Absorber Bottom Pump_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+377,,1130-PM-305B_EM_STOP.MCU,MCU.1130-PM-305B - Offgas Absorber Bottom Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+378,,1130-PM-305B_SWITCH_ON.MCU,MCU.1130-PM-305B - Offgas Absorber Bottom Pump_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+379,,1130-PM-305B_MCCB POSITION.MCU,MCU.1130-PM-305B - Offgas Absorber Bottom Pump_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+380,,1130-PM-305B_REDAY.MCU,MCU.1130-PM-305B - Offgas Absorber Bottom Pump_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+381,,1130-PM-306B_TX.MCU,MCU.1130-PM-306B - Rich Oil Stripper Bottom Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+382,,1130-PM-306B_PERMIT.MCU,MCU.1130-PM-306B - Rich Oil Stripper Bottom Pump_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+383,,1130-PM-306B_FAULT.MCU,MCU.1130-PM-306B - Rich Oil Stripper Bottom Pump_General Fault 1:Fault 0:Normal,BOOL,2,1
+384,,1130-PM-306B_STA.MCU,MCU.1130-PM-306B - Rich Oil Stripper Bottom Pump_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+385,,1130-PM-306B_EM_STOP.MCU,MCU.1130-PM-306B - Rich Oil Stripper Bottom Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+386,,1130-PM-306B_SWITCH_ON.MCU,MCU.1130-PM-306B - Rich Oil Stripper Bottom Pump_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+387,,1130-PM-306B_MCCB POSITION.MCU,MCU.1130-PM-306B - Rich Oil Stripper Bottom Pump_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+388,,1130-PM-306B_REDAY.MCU,MCU.1130-PM-306B - Rich Oil Stripper Bottom Pump_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+389,,1130-BLM-331B_TX.MCU,MCU.1130-BLM-331B - Oil station fans_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+390,,1130-BLM-331B_PERMIT.MCU,MCU.1130-BLM-331B - Oil station fans_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+391,,1130-BLM-331B_FAULT.MCU,MCU.1130-BLM-331B - Oil station fans_General Fault 1:Fault 0:Normal,BOOL,2,1
+392,,1130-BLM-331B_STA.MCU,MCU.1130-BLM-331B - Oil station fans_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+393,,1130-BLM-331B_EM_STOP.MCU,MCU.1130-BLM-331B - Oil station fans_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+394,,1130-BLM-331B_SWITCH_ON.MCU,MCU.1130-BLM-331B - Oil station fans_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+395,,1130-BLM-331B_MCCB POSITION.MCU,MCU.1130-BLM-331B - Oil station fans_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+396,,1130-BLM-331B_REDAY.MCU,MCU.1130-BLM-331B - Oil station fans_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+397,,1130-PM-302B_TX.MCU,MCU.1130-PM-302B - Process Condensate Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+398,,1130-PM-302B_PERMIT.MCU,MCU.1130-PM-302B - Process Condensate Pump_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+399,,1130-PM-302B_FAULT.MCU,MCU.1130-PM-302B - Process Condensate Pump_General Fault 1:Fault 0:Normal,BOOL,2,1
+400,,1130-PM-302B_STA.MCU,MCU.1130-PM-302B - Process Condensate Pump_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+401,,1130-PM-302B_EM_STOP.MCU,MCU.1130-PM-302B - Process Condensate Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+402,,1130-PM-302B_SWITCH_ON.MCU,MCU.1130-PM-302B - Process Condensate Pump_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+403,,1130-PM-302B_MCCB POSITION.MCU,MCU.1130-PM-302B - Process Condensate Pump_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+404,,1130-PM-302B_REDAY.MCU,MCU.1130-PM-302B - Process Condensate Pump_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+405,,1612-PM-611B_TX.MCU,MCU.1612-PM-611B - Desuperheater Water Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+406,,1612-PM-611B_PERMIT.MCU,MCU.1612-PM-611B - Desuperheater Water Pump_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+407,,1612-PM-611B_FAULT.MCU,MCU.1612-PM-611B - Desuperheater Water Pump_General Fault 1:Fault 0:Normal,BOOL,2,1
+408,,1612-PM-611B_STA.MCU,MCU.1612-PM-611B - Desuperheater Water Pump_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+409,,1612-PM-611B_EM_STOP.MCU,MCU.1612-PM-611B - Desuperheater Water Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+410,,1612-PM-611B_SWITCH_ON.MCU,MCU.1612-PM-611B - Desuperheater Water Pump_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+411,,1612-PM-611B_MCCB POSITION.MCU,MCU.1612-PM-611B - Desuperheater Water Pump_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+412,,1612-PM-611B_REDAY.MCU,MCU.1612-PM-611B - Desuperheater Water Pump_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+413,,1612-PM-001B_TX.MCU,MCU.1612-PM-001B - oil pump motor_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+414,,1612-PM-001B_PERMIT.MCU,MCU.1612-PM-001B - oil pump motor_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+415,,1612-PM-001B_FAULT.MCU,MCU.1612-PM-001B - oil pump motor_General Fault 1:Fault 0:Normal,BOOL,2,1
+416,,1612-PM-001B_STA.MCU,MCU.1612-PM-001B - oil pump motor_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+417,,1612-PM-001B_EM_STOP.MCU,MCU.1612-PM-001B - oil pump motor_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+418,,1612-PM-001B_SWITCH_ON.MCU,MCU.1612-PM-001B - oil pump motor_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+419,,1612-PM-001B_MCCB POSITION.MCU,MCU.1612-PM-001B - oil pump motor_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+420,,1612-PM-001B_REDAY.MCU,MCU.1612-PM-001B - oil pump motor_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+421,,1612-P-611B.HE-JB_TX.MCU,MCU.1612-P-611B.HE-JB - Oil heater junction box_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+422,,1612-P-611B.HE-JB_PERMIT.MCU,MCU.1612-P-611B.HE-JB - Oil heater junction box_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+423,,1612-P-611B.HE-JB_FAULT.MCU,MCU.1612-P-611B.HE-JB - Oil heater junction box_General Fault 1:Fault 0:Normal,BOOL,2,1
+424,,1612-P-611B.HE-JB_STA.MCU,MCU.1612-P-611B.HE-JB - Oil heater junction box_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+425,,1612-P-611B.HE-JB_EM_STOP.MCU,MCU.1612-P-611B.HE-JB - Oil heater junction box_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+426,,1612-P-611B.HE-JB_SWITCH_ON.MCU,MCU.1612-P-611B.HE-JB - Oil heater junction box_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+427,,1612-P-611B.HE-JB_MCCB POSITION.MCU,MCU.1612-P-611B.HE-JB - Oil heater junction box_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+428,,1612-P-611B.HE-JB_REDAY.MCU,MCU.1612-P-611B.HE-JB - Oil heater junction box_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+429,,1110-KM-101B-2_TX.MCU,MCU.1110-KM-101B-2 - Barring motor_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+430,,1110-KM-101B-2_PERMIT.MCU,MCU.1110-KM-101B-2 - Barring motor_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+431,,1110-KM-101B-2_FAULT.MCU,MCU.1110-KM-101B-2 - Barring motor_General Fault 1:Fault 0:Normal,BOOL,2,1
+432,,1110-KM-101B-2_STA.MCU,MCU.1110-KM-101B-2 - Barring motor_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+433,,1110-KM-101B-2_EM_STOP.MCU,MCU.1110-KM-101B-2 - Barring motor_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+434,,1110-KM-101B-2_SWITCH_ON.MCU,MCU.1110-KM-101B-2 - Barring motor_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+435,,1110-KM-101B-2_MCCB POSITION.MCU,MCU.1110-KM-101B-2 - Barring motor_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+436,,1110-KM-101B-2_REDAY.MCU,MCU.1110-KM-101B-2 - Barring motor_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+437,,1110-PM-132A_TX.MCU,MCU.1110-PM-132A - Oil pump motor 1_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+438,,1110-PM-132A_PERMIT.MCU,MCU.1110-PM-132A - Oil pump motor 1_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+439,,1110-PM-132A_FAULT.MCU,MCU.1110-PM-132A - Oil pump motor 1_General Fault 1:Fault 0:Normal,BOOL,2,1
+440,,1110-PM-132A_STA.MCU,MCU.1110-PM-132A - Oil pump motor 1_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+441,,1110-PM-132A_EM_STOP.MCU,MCU.1110-PM-132A - Oil pump motor 1_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+442,,1110-PM-132A_SWITCH_ON.MCU,MCU.1110-PM-132A - Oil pump motor 1_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+443,,1110-PM-132A_MCCB POSITION.MCU,MCU.1110-PM-132A - Oil pump motor 1_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+444,,1110-PM-132A_REDAY.MCU,MCU.1110-PM-132A - Oil pump motor 1_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+445,,1110-PM-132B_TX.MCU,MCU.1110-PM-132B - Oil pump motor 2_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+446,,1110-PM-132B_PERMIT.MCU,MCU.1110-PM-132B - Oil pump motor 2_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+447,,1110-PM-132B_FAULT.MCU,MCU.1110-PM-132B - Oil pump motor 2_General Fault 1:Fault 0:Normal,BOOL,2,1
+448,,1110-PM-132B_STA.MCU,MCU.1110-PM-132B - Oil pump motor 2_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+449,,1110-PM-132B_EM_STOP.MCU,MCU.1110-PM-132B - Oil pump motor 2_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+450,,1110-PM-132B_SWITCH_ON.MCU,MCU.1110-PM-132B - Oil pump motor 2_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+451,,1110-PM-132B_MCCB POSITION.MCU,MCU.1110-PM-132B - Oil pump motor 2_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+452,,1110-PM-132B_REDAY.MCU,MCU.1110-PM-132B - Oil pump motor 2_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+453,,1110-KM-101B.EH02_TX.MCU,MCU.1110-KM-101B.EH02 - Electric heater for crankcase_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+454,,1110-KM-101B.EH02_PERMIT.MCU,MCU.1110-KM-101B.EH02 - Electric heater for crankcase_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+455,,1110-KM-101B.EH02_FAULT.MCU,MCU.1110-KM-101B.EH02 - Electric heater for crankcase_General Fault 1:Fault 0:Normal,BOOL,2,1
+456,,1110-KM-101B.EH02_STA.MCU,MCU.1110-KM-101B.EH02 - Electric heater for crankcase_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+457,,1110-KM-101B.EH02_EM_STOP.MCU,MCU.1110-KM-101B.EH02 - Electric heater for crankcase_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+458,,1110-KM-101B.EH02_SWITCH_ON.MCU,MCU.1110-KM-101B.EH02 - Electric heater for crankcase_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+459,,1110-KM-101B.EH02_MCCB POSITION.MCU,MCU.1110-KM-101B.EH02 - Electric heater for crankcase_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+460,,1110-KM-101B.EH02_REDAY.MCU,MCU.1110-KM-101B.EH02 - Electric heater for crankcase_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+461,,2202-NK-SG-102-B.08OC_8_TX.MCU,MCU.2202-NK-SG-102-B.08OC_8 - SPARE_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+462,,2202-NK-SG-102-B.08OC_8_PERMIT.MCU,MCU.2202-NK-SG-102-B.08OC_8 - SPARE_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+463,,2202-NK-SG-102-B.08OC_8_FAULT.MCU,MCU.2202-NK-SG-102-B.08OC_8 - SPARE_General Fault 1:Fault 0:Normal,BOOL,2,1
+464,,2202-NK-SG-102-B.08OC_8_STA.MCU,MCU.2202-NK-SG-102-B.08OC_8 - SPARE_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+465,,2202-NK-SG-102-B.08OC_8_EM_STOP.MCU,MCU.2202-NK-SG-102-B.08OC_8 - SPARE_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+466,,2202-NK-SG-102-B.08OC_8_SWITCH_ON.MCU,MCU.2202-NK-SG-102-B.08OC_8 - SPARE_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+467,,2202-NK-SG-102-B.08OC_8_MCCB POSITION.MCU,MCU.2202-NK-SG-102-B.08OC_8 - SPARE_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+468,,2202-NK-SG-102-B.08OC_8_REDAY.MCU,MCU.2202-NK-SG-102-B.08OC_8 - SPARE_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+469,,1110-PM-133B_TX.MCU,MCU.1110-PM-133B - Water pump motor 2_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+470,,1110-PM-133B_PERMIT.MCU,MCU.1110-PM-133B - Water pump motor 2_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+471,,1110-PM-133B_FAULT.MCU,MCU.1110-PM-133B - Water pump motor 2_General Fault 1:Fault 0:Normal,BOOL,2,1
+472,,1110-PM-133B_STA.MCU,MCU.1110-PM-133B - Water pump motor 2_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+473,,1110-PM-133B_EM_STOP.MCU,MCU.1110-PM-133B - Water pump motor 2_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+474,,1110-PM-133B_SWITCH_ON.MCU,MCU.1110-PM-133B - Water pump motor 2_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+475,,1110-PM-133B_MCCB POSITION.MCU,MCU.1110-PM-133B - Water pump motor 2_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+476,,1110-PM-133B_REDAY.MCU,MCU.1110-PM-133B - Water pump motor 2_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+477,,1130-KM-301B_TX.MCU,MCU.1130-KM-301B - Barring motor_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+478,,1130-KM-301B_PERMIT.MCU,MCU.1130-KM-301B - Barring motor_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+479,,1130-KM-301B_FAULT.MCU,MCU.1130-KM-301B - Barring motor_General Fault 1:Fault 0:Normal,BOOL,2,1
+480,,1130-KM-301B_STA.MCU,MCU.1130-KM-301B - Barring motor_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+481,,1130-KM-301B_EM_STOP.MCU,MCU.1130-KM-301B - Barring motor_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+482,,1130-KM-301B_SWITCH_ON.MCU,MCU.1130-KM-301B - Barring motor_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+483,,1130-KM-301B_MCCB POSITION.MCU,MCU.1130-KM-301B - Barring motor_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+484,,1130-KM-301B_REDAY.MCU,MCU.1130-KM-301B - Barring motor_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+485,,1130-PM-332A_TX.MCU,MCU.1130-PM-332A - Main oil pump motor_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+486,,1130-PM-332A_PERMIT.MCU,MCU.1130-PM-332A - Main oil pump motor_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+487,,1130-PM-332A_FAULT.MCU,MCU.1130-PM-332A - Main oil pump motor_General Fault 1:Fault 0:Normal,BOOL,2,1
+488,,1130-PM-332A_STA.MCU,MCU.1130-PM-332A - Main oil pump motor_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+489,,1130-PM-332A_EM_STOP.MCU,MCU.1130-PM-332A - Main oil pump motor_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+490,,1130-PM-332A_SWITCH_ON.MCU,MCU.1130-PM-332A - Main oil pump motor_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+491,,1130-PM-332A_MCCB POSITION.MCU,MCU.1130-PM-332A - Main oil pump motor_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+492,,1130-PM-332A_REDAY.MCU,MCU.1130-PM-332A - Main oil pump motor_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+493,,1130-PM-332B_TX.MCU,MCU.1130-PM-332B - Auxiliary oil pump motor_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+494,,1130-PM-332B_PERMIT.MCU,MCU.1130-PM-332B - Auxiliary oil pump motor_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+495,,1130-PM-332B_FAULT.MCU,MCU.1130-PM-332B - Auxiliary oil pump motor_General Fault 1:Fault 0:Normal,BOOL,2,1
+496,,1130-PM-332B_STA.MCU,MCU.1130-PM-332B - Auxiliary oil pump motor_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+497,,1130-PM-332B_EM_STOP.MCU,MCU.1130-PM-332B - Auxiliary oil pump motor_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+498,,1130-PM-332B_SWITCH_ON.MCU,MCU.1130-PM-332B - Auxiliary oil pump motor_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+499,,1130-PM-332B_MCCB POSITION.MCU,MCU.1130-PM-332B - Auxiliary oil pump motor_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+500,,1130-PM-332B_REDAY.MCU,MCU.1130-PM-332B - Auxiliary oil pump motor_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+501,,1130-V-332B.EH_TX.MCU,MCU.1130-V-332B.EH - Lube oil tank heater_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+502,,1130-V-332B.EH_PERMIT.MCU,MCU.1130-V-332B.EH - Lube oil tank heater_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+503,,1130-V-332B.EH_FAULT.MCU,MCU.1130-V-332B.EH - Lube oil tank heater_General Fault 1:Fault 0:Normal,BOOL,2,1
+504,,1130-V-332B.EH_STA.MCU,MCU.1130-V-332B.EH - Lube oil tank heater_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+505,,1130-V-332B.EH_EM_STOP.MCU,MCU.1130-V-332B.EH - Lube oil tank heater_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+506,,1130-V-332B.EH_SWITCH_ON.MCU,MCU.1130-V-332B.EH - Lube oil tank heater_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+507,,1130-V-332B.EH_MCCB POSITION.MCU,MCU.1130-V-332B.EH - Lube oil tank heater_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+508,,1130-V-332B.EH_REDAY.MCU,MCU.1130-V-332B.EH - Lube oil tank heater_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+509,,2701-PK-1501B-M_TX.MCU,"MCU.2701-PK-1501B-M - ""ITF Waste Gas FanAcoustic Enclosure Fan""_Communication Status 1:Communication Normal 0:Communication Interrupted",BOOL,2,1
+510,,2701-PK-1501B-M_PERMIT.MCU,"MCU.2701-PK-1501B-M - ""ITF Waste Gas FanAcoustic Enclosure Fan""_Permitted State 1:Permit 0:No Permit",BOOL,2,1
+511,,2701-PK-1501B-M_FAULT.MCU,"MCU.2701-PK-1501B-M - ""ITF Waste Gas FanAcoustic Enclosure Fan""_General Fault 1:Fault 0:Normal",BOOL,2,1
+512,,2701-PK-1501B-M_STA.MCU,"MCU.2701-PK-1501B-M - ""ITF Waste Gas FanAcoustic Enclosure Fan""_Motor Operation 1:Running 0:Stopped",BOOL,2,1
+513,,2701-PK-1501B-M_EM_STOP.MCU,"MCU.2701-PK-1501B-M - ""ITF Waste Gas FanAcoustic Enclosure Fan""_Emergency shutdown 1:Emergency shutdown 0:Normal",BOOL,2,1
+514,,2701-PK-1501B-M_SWITCH_ON.MCU,"MCU.2701-PK-1501B-M - ""ITF Waste Gas FanAcoustic Enclosure Fan""_MCCB Closed 1:Closed Position 0:Open Position",BOOL,2,1
+515,,2701-PK-1501B-M_MCCB POSITION.MCU,"MCU.2701-PK-1501B-M - ""ITF Waste Gas FanAcoustic Enclosure Fan""_MCCB Working Position 1:Working Position 0:Test Position",BOOL,2,1
+516,,2701-PK-1501B-M_REDAY.MCU,"MCU.2701-PK-1501B-M - ""ITF Waste Gas FanAcoustic Enclosure Fan""_Motor Ready 1:Ready 0:Not Ready",BOOL,2,1
+517,,2701-PM-1216_TX.MCU,MCU.2701-PM-1216 - Slop Drum Water Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+518,,2701-PM-1216_PERMIT.MCU,MCU.2701-PM-1216 - Slop Drum Water Pump_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+519,,2701-PM-1216_FAULT.MCU,MCU.2701-PM-1216 - Slop Drum Water Pump_General Fault 1:Fault 0:Normal,BOOL,2,1
+520,,2701-PM-1216_STA.MCU,MCU.2701-PM-1216 - Slop Drum Water Pump_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+521,,2701-PM-1216_EM_STOP.MCU,MCU.2701-PM-1216 - Slop Drum Water Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+522,,2701-PM-1216_SWITCH_ON.MCU,MCU.2701-PM-1216 - Slop Drum Water Pump_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+523,,2701-PM-1216_MCCB POSITION.MCU,MCU.2701-PM-1216 - Slop Drum Water Pump_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+524,,2701-PM-1216_REDAY.MCU,MCU.2701-PM-1216 - Slop Drum Water Pump_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+525,,2202-NK-SG-102-B.12OC_3_TX.MCU,MCU.2202-NK-SG-102-B.12OC_3 - SPARE_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+526,,2202-NK-SG-102-B.12OC_3_PERMIT.MCU,MCU.2202-NK-SG-102-B.12OC_3 - SPARE_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+527,,2202-NK-SG-102-B.12OC_3_FAULT.MCU,MCU.2202-NK-SG-102-B.12OC_3 - SPARE_General Fault 1:Fault 0:Normal,BOOL,2,1
+528,,2202-NK-SG-102-B.12OC_3_STA.MCU,MCU.2202-NK-SG-102-B.12OC_3 - SPARE_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+529,,2202-NK-SG-102-B.12OC_3_EM_STOP.MCU,MCU.2202-NK-SG-102-B.12OC_3 - SPARE_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+530,,2202-NK-SG-102-B.12OC_3_SWITCH_ON.MCU,MCU.2202-NK-SG-102-B.12OC_3 - SPARE_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+531,,2202-NK-SG-102-B.12OC_3_MCCB POSITION.MCU,MCU.2202-NK-SG-102-B.12OC_3 - SPARE_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+532,,2202-NK-SG-102-B.12OC_3_REDAY.MCU,MCU.2202-NK-SG-102-B.12OC_3 - SPARE_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+533,,2701-PM-1701B_TX.MCU,MCU.2701-PM-1701B - TBC Solution Dosing pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+534,,2701-PM-1701B_PERMIT.MCU,MCU.2701-PM-1701B - TBC Solution Dosing pump_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+535,,2701-PM-1701B_FAULT.MCU,MCU.2701-PM-1701B - TBC Solution Dosing pump_General Fault 1:Fault 0:Normal,BOOL,2,1
+536,,2701-PM-1701B_STA.MCU,MCU.2701-PM-1701B - TBC Solution Dosing pump_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+537,,2701-PM-1701B_EM_STOP.MCU,MCU.2701-PM-1701B - TBC Solution Dosing pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+538,,2701-PM-1701B_SWITCH_ON.MCU,MCU.2701-PM-1701B - TBC Solution Dosing pump_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+539,,2701-PM-1701B_MCCB POSITION.MCU,MCU.2701-PM-1701B - TBC Solution Dosing pump_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+540,,2701-PM-1701B_REDAY.MCU,MCU.2701-PM-1701B - TBC Solution Dosing pump_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+541,,2701-PM-1206B_TX.MCU,MCU.2701-PM-1206B - Benzene-Toluene FractionTransfer Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+542,,2701-PM-1206B_PERMIT.MCU,MCU.2701-PM-1206B - Benzene-Toluene FractionTransfer Pump_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+543,,2701-PM-1206B_FAULT.MCU,MCU.2701-PM-1206B - Benzene-Toluene FractionTransfer Pump_General Fault 1:Fault 0:Normal,BOOL,2,1
+544,,2701-PM-1206B_STA.MCU,MCU.2701-PM-1206B - Benzene-Toluene FractionTransfer Pump_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+545,,2701-PM-1206B_EM_STOP.MCU,MCU.2701-PM-1206B - Benzene-Toluene FractionTransfer Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+546,,2701-PM-1206B_SWITCH_ON.MCU,MCU.2701-PM-1206B - Benzene-Toluene FractionTransfer Pump_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+547,,2701-PM-1206B_MCCB POSITION.MCU,MCU.2701-PM-1206B - Benzene-Toluene FractionTransfer Pump_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+548,,2701-PM-1206B_REDAY.MCU,MCU.2701-PM-1206B - Benzene-Toluene FractionTransfer Pump_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+549,,2202-NK-SG-102-B.12OC_6_TX.MCU,MCU.2202-NK-SG-102-B.12OC_6 - SPARE_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+550,,2202-NK-SG-102-B.12OC_6_PERMIT.MCU,MCU.2202-NK-SG-102-B.12OC_6 - SPARE_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+551,,2202-NK-SG-102-B.12OC_6_FAULT.MCU,MCU.2202-NK-SG-102-B.12OC_6 - SPARE_General Fault 1:Fault 0:Normal,BOOL,2,1
+552,,2202-NK-SG-102-B.12OC_6_STA.MCU,MCU.2202-NK-SG-102-B.12OC_6 - SPARE_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+553,,2202-NK-SG-102-B.12OC_6_EM_STOP.MCU,MCU.2202-NK-SG-102-B.12OC_6 - SPARE_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+554,,2202-NK-SG-102-B.12OC_6_SWITCH_ON.MCU,MCU.2202-NK-SG-102-B.12OC_6 - SPARE_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+555,,2202-NK-SG-102-B.12OC_6_MCCB POSITION.MCU,MCU.2202-NK-SG-102-B.12OC_6 - SPARE_MCCB Working Position 1:Working Position 0:Test Position,BOOL,2,1
+556,,2202-NK-SG-102-B.12OC_6_REDAY.MCU,MCU.2202-NK-SG-102-B.12OC_6 - SPARE_Motor Ready 1:Ready 0:Not Ready,BOOL,2,1
+557,,1130-PM-301B_TX.MCU,MCU.1130-PM-301B - DM Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+558,,1130-PM-301B_EM_STOP.MCU,MCU.1130-PM-301B - DM Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+559,,1130-PM-303B_TX.MCU,MCU.1130-PM-303B - Condensate Stripper Bottom Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+560,,1130-PM-303B_EM_STOP.MCU,MCU.1130-PM-303B - Condensate Stripper Bottom Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+561,,1612-PM-606B_TX.MCU,MCU.1612-PM-606B - LLP Condensate Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+562,,1612-PM-606B_EM_STOP.MCU,MCU.1612-PM-606B - LLP Condensate Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+563,,2701-PM-1202B_TX.MCU,MCU.2701-PM-1202B - Ethylbenzene transfer pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+564,,2701-PM-1202B_EM_STOP.MCU,MCU.2701-PM-1202B - Ethylbenzene transfer pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+565,,2701-PM-1201B_TX.MCU,MCU.2701-PM-1201B - Benzene transfer pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+566,,2701-PM-1201B_EM_STOP.MCU,MCU.2701-PM-1201B - Benzene transfer pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+567,,2701-PM-1205S_TX.MCU,MCU.2701-PM-1205S - SM Transfer Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+568,,2701-PM-1205S_EM_STOP.MCU,MCU.2701-PM-1205S - SM Transfer Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+569,,2701-PM-1204B_TX.MCU,MCU.2701-PM-1204B - DM Transfer Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+570,,2701-PM-1204B_EM_STOP.MCU,MCU.2701-PM-1204B - DM Transfer Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+571,,2701-PM-1207B_TX.MCU,MCU.2701-PM-1207B - Heavy Tar Loading Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+572,,2701-PM-1207B_EM_STOP.MCU,MCU.2701-PM-1207B - Heavy Tar Loading Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+573,,2701-PM-1205A_TX.MCU,MCU.2701-PM-1205A - SM Transfer Pump_Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+574,,2701-PM-1205A_EM_STOP.MCU,MCU.2701-PM-1205A - SM Transfer Pump_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+575,,2202-NK-SG-102-B.SS01_1_PLC_TX.PLC,PLC.2202-NK-SG-102-B.SS01_1 - inlet switch+SOFT STARTER_SSR PLC Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+576,,1130-PM-301B_M1_PERMIT.PLC,PLC.1130-PM-301B - DM Pump_Circuit 1_Permitted State 1:Permit 0:Not Permit,BOOL,2,1
+577,,1130-PM-301B_Q1_READY.PLC,PLC.1130-PM-301B - DM Pump_Circuit 1_Q1_Ready 1:Ready 0:Not Ready,BOOL,2,1
+578,,1130-PM-301B_Q1_BYPS.PLC,PLC.1130-PM-301B - DM Pump_Circuit 1_Q1_Motor 1 Operation 1:Running 0:Stopped,BOOL,2,1
+579,,1130-PM-301B_Q1_F.PLC,PLC.1130-PM-301B - DM Pump_Circuit 1_Q1_Motor 1 Fault 1:Fault 0:Normal,BOOL,2,1
+580,,1130-PM-301B_QF1_ATUO.PLC,PLC.1130-PM-301B - DM Pump_Circuit 1_Q1_Remote_Local 1:Remote 0:Local,BOOL,2,1
+581,,1130-PM-301B_QF1_STA.PLC,PLC.1130-PM-301B - DM Pump_Circuit 1_QF1_Switch Closing 1:Closed 0:Open,BOOL,2,1
+582,,1130-PM-303B_M2_PERMIT.PLC,PLC.1130-PM-303B - Condensate Stripper Bottom Pump_Circuit 2_Permitted State 1:Permit 0:Not Permit,BOOL,2,1
+583,,1130-PM-303B_Q2_READY.PLC,PLC.1130-PM-303B - Condensate Stripper Bottom Pump_Circuit 2_Q2_Ready 1:Ready 0:Not Ready,BOOL,2,1
+584,,1130-PM-303B_Q2_BYPS.PLC,PLC.1130-PM-303B - Condensate Stripper Bottom Pump_Circuit 2_Q2_Motor 2 Operation 1:Running 0:Stopped,BOOL,2,1
+585,,1130-PM-303B_Q2_F.PLC,PLC.1130-PM-303B - Condensate Stripper Bottom Pump_Circuit 2_Q2_Motor 2 Fault 1:Fault 0:Normal,BOOL,2,1
+586,,1130-PM-303B_QF2_ATUO.PLC,PLC.1130-PM-303B - Condensate Stripper Bottom Pump_Circuit 2_Q2_Remote_Local 1:Remote 0:Local,BOOL,2,1
+587,,1130-PM-303B_QF2_STA.PLC,PLC.1130-PM-303B - Condensate Stripper Bottom Pump_Circuit 2_QF2_Switch Closing 1:Closed 0:Open,BOOL,2,1
+588,,1612-PM-606B_M3_PERMIT.PLC,PLC.1612-PM-606B - LLP Condensate Pump_Circuit 3_Permitted State 1:Permit 0:Not Permit,BOOL,2,1
+589,,1612-PM-606B_Q3_READY.PLC,PLC.1612-PM-606B - LLP Condensate Pump_Circuit 3_Q3_Ready 1:Ready 0:Not Ready,BOOL,2,1
+590,,1612-PM-606B_Q3_BYPS.PLC,PLC.1612-PM-606B - LLP Condensate Pump_Circuit 3_Q3_Motor 3 Operation 1:Running 0:Stopped,BOOL,2,1
+591,,1612-PM-606B_Q3_F.PLC,PLC.1612-PM-606B - LLP Condensate Pump_Circuit 3_Q3_Motor 3 Fault 1:Fault 0:Normal,BOOL,2,1
+592,,1612-PM-606B_QF3_ATUO.PLC,PLC.1612-PM-606B - LLP Condensate Pump_Circuit 3_Q3_Remote_Local 1:Remote 0:Local,BOOL,2,1
+593,,1612-PM-606B_QF3_STA.PLC,PLC.1612-PM-606B - LLP Condensate Pump_Circuit 3_QF3_Switch Closing 1:Closed 0:Open,BOOL,2,1
+594,,2202-NK-SG-102-B.SS03_1_PLC_TX.PLC,PLC.2202-NK-SG-102-B.SS03_1 - inlet switch+SOFT STARTER_SSR PLC Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+595,,2701-PM-1202B_M1_PERMIT.PLC,PLC.2701-PM-1202B - Ethylbenzene transfer pump_Circuit 1_Permitted State 1:Permit 0:Not Permit,BOOL,2,1
+596,,2701-PM-1202B_Q1_READY.PLC,PLC.2701-PM-1202B - Ethylbenzene transfer pump_Circuit 1_Q1_Ready 1:Ready 0:Not Ready,BOOL,2,1
+597,,2701-PM-1202B_Q1_BYPS.PLC,PLC.2701-PM-1202B - Ethylbenzene transfer pump_Circuit 1_Q1_Motor 1 Operation 1:Running 0:Stopped,BOOL,2,1
+598,,2701-PM-1202B_Q1_F.PLC,PLC.2701-PM-1202B - Ethylbenzene transfer pump_Circuit 1_Q1_Motor 1 Fault 1:Fault 0:Normal,BOOL,2,1
+599,,2701-PM-1202B_QF1_ATUO.PLC,PLC.2701-PM-1202B - Ethylbenzene transfer pump_Circuit 1_Q1_Remote_Local 1:Remote 0:Local,BOOL,2,1
+600,,2701-PM-1202B_QF1_STA.PLC,PLC.2701-PM-1202B - Ethylbenzene transfer pump_Circuit 1_QF1_Switch Closing 1:Closed 0:Open,BOOL,2,1
+601,,2701-PM-1201B_M2_PERMIT.PLC,PLC.2701-PM-1201B - Benzene transfer pump_Circuit 2_Permitted State 1:Permit 0:Not Permit,BOOL,2,1
+602,,2701-PM-1201B_Q2_READY.PLC,PLC.2701-PM-1201B - Benzene transfer pump_Circuit 2_Q2_Ready 1:Ready 0:Not Ready,BOOL,2,1
+603,,2701-PM-1201B_Q2_BYPS.PLC,PLC.2701-PM-1201B - Benzene transfer pump_Circuit 2_Q2_Motor 2 Operation 1:Running 0:Stopped,BOOL,2,1
+604,,2701-PM-1201B_Q2_F.PLC,PLC.2701-PM-1201B - Benzene transfer pump_Circuit 2_Q2_Motor 2 Fault 1:Fault 0:Normal,BOOL,2,1
+605,,2701-PM-1201B_QF2_ATUO.PLC,PLC.2701-PM-1201B - Benzene transfer pump_Circuit 2_Q2_Remote_Local 1:Remote 0:Local,BOOL,2,1
+606,,2701-PM-1201B_QF2_STA.PLC,PLC.2701-PM-1201B - Benzene transfer pump_Circuit 2_QF2_Switch Closing 1:Closed 0:Open,BOOL,2,1
+607,,2701-PM-1204B_M3_PERMIT.PLC,PLC.2701-PM-1204B - DM Transfer Pump_Circuit 3_Permitted State 1:Permit 0:Not Permit,BOOL,2,1
+608,,2701-PM-1204B_Q3_READY.PLC,PLC.2701-PM-1204B - DM Transfer Pump_Circuit 3_Q3_Ready 1:Ready 0:Not Ready,BOOL,2,1
+609,,2701-PM-1204B_Q3_BYPS.PLC,PLC.2701-PM-1204B - DM Transfer Pump_Circuit 3_Q3_Motor 3 Operation 1:Running 0:Stopped,BOOL,2,1
+610,,2701-PM-1204B_Q3_F.PLC,PLC.2701-PM-1204B - DM Transfer Pump_Circuit 3_Q3_Motor 3 Fault 1:Fault 0:Normal,BOOL,2,1
+611,,2701-PM-1204B_QF3_ATUO.PLC,PLC.2701-PM-1204B - DM Transfer Pump_Circuit 3_Q3_Remote_Local 1:Remote 0:Local,BOOL,2,1
+612,,2701-PM-1204B_QF3_STA.PLC,PLC.2701-PM-1204B - DM Transfer Pump_Circuit 3_QF3_Switch Closing 1:Closed 0:Open,BOOL,2,1
+613,,2202-NK-SG-102-B.SS05_1_PLC_TX.PLC,PLC.2202-NK-SG-102-B.SS05_1 - inlet switch+SOFT STARTER_SSR PLC Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+614,,2701-PM-1207B_M1_PERMIT.PLC,PLC.2701-PM-1207B - Heavy Tar Loading Pump_Circuit 1_Permitted State 1:Permit 0:Not Permit,BOOL,2,1
+615,,2701-PM-1207B_Q1_READY.PLC,PLC.2701-PM-1207B - Heavy Tar Loading Pump_Circuit 1_Q1_Ready 1:Ready 0:Not Ready,BOOL,2,1
+616,,2701-PM-1207B_Q1_BYPS.PLC,PLC.2701-PM-1207B - Heavy Tar Loading Pump_Circuit 1_Q1_Motor 1 Operation 1:Running 0:Stopped,BOOL,2,1
+617,,2701-PM-1207B_Q1_F.PLC,PLC.2701-PM-1207B - Heavy Tar Loading Pump_Circuit 1_Q1_Motor 1 Fault 1:Fault 0:Normal,BOOL,2,1
+618,,2701-PM-1207B_QF1_ATUO.PLC,PLC.2701-PM-1207B - Heavy Tar Loading Pump_Circuit 1_Q1_Remote_Local 1:Remote 0:Local,BOOL,2,1
+619,,2701-PM-1207B_QF1_STA.PLC,PLC.2701-PM-1207B - Heavy Tar Loading Pump_Circuit 1_QF1_Switch Closing 1:Closed 0:Open,BOOL,2,1
+620,,2701-PM-1205A_M2_PERMIT.PLC,PLC.2701-PM-1205A - SM Transfer Pump_Circuit 2_Permitted State 1:Permit 0:Not Permit,BOOL,2,1
+621,,2701-PM-1205A_Q2_READY.PLC,PLC.2701-PM-1205A - SM Transfer Pump_Circuit 2_Q2_Ready 1:Ready 0:Not Ready,BOOL,2,1
+622,,2701-PM-1205A_Q2_BYPS.PLC,PLC.2701-PM-1205A - SM Transfer Pump_Circuit 2_Q2_Motor 2 Operation 1:Running 0:Stopped,BOOL,2,1
+623,,2701-PM-1205A_Q2_F.PLC,PLC.2701-PM-1205A - SM Transfer Pump_Circuit 2_Q2_Motor 2 Fault 1:Fault 0:Normal,BOOL,2,1
+624,,2701-PM-1205A_QF2_ATUO.PLC,PLC.2701-PM-1205A - SM Transfer Pump_Circuit 2_Q2_Remote_Local 1:Remote 0:Local,BOOL,2,1
+625,,2701-PM-1205A_QF2_STA.PLC,PLC.2701-PM-1205A - SM Transfer Pump_Circuit 2_QF2_Switch Closing 1:Closed 0:Open,BOOL,2,1
+626,,2701-PM-1205S_M3_PERMIT.PLC,PLC.2701-PM-1205S - SM Transfer Pump_Circuit 3_Permitted State 1:Permit 0:Not Permit,BOOL,2,1
+627,,2701-PM-1205S_Q3_READY.PLC,PLC.2701-PM-1205S - SM Transfer Pump_Circuit 3_Q3_Ready 1:Ready 0:Not Ready,BOOL,2,1
+628,,2701-PM-1205S_Q3_BYPS.PLC,PLC.2701-PM-1205S - SM Transfer Pump_Circuit 3_Q3_Motor 3 Operation 1:Running 0:Stopped,BOOL,2,1
+629,,2701-PM-1205S_Q3_F.PLC,PLC.2701-PM-1205S - SM Transfer Pump_Circuit 3_Q3_Motor 3 Fault 1:Fault 0:Normal,BOOL,2,1
+630,,2701-PM-1205S_QF3_ATUO.PLC,PLC.2701-PM-1205S - SM Transfer Pump_Circuit 3_Q3_Remote_Local 1:Remote 0:Local,BOOL,2,1
+631,,2701-PM-1205S_QF3_STA.PLC,PLC.2701-PM-1205S - SM Transfer Pump_Circuit 3_QF3_Switch Closing 1:Closed 0:Open,BOOL,2,1
+632,,2701-PK-1201B-M_TX.VFD,VFD.2701-PK-1201B-M - ITF Waste Gas Fan_VFD Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+633,,2701-PK-1201B-M_TX.PLC,PLC.2701-PK-1201B-M - ITF Waste Gas Fan_VFD PLC Communication Status 1:Communication Normal 0:Communication Interrupted,BOOL,2,1
+634,,2701-PK-1201B-M_PERMIT.PLC,PLC.2701-PK-1201B-M - ITF Waste Gas Fan_Permitted State 1:Permit 0:No Permit,BOOL,2,1
+635,,2701-PK-1201B-M_LOC_REM.PLC,PLC.2701-PK-1201B-M - ITF Waste Gas Fan_Remote_Local 1:Remote 0:Local,BOOL,2,1
+636,,2701-PK-1201B-M_STA.PLC,PLC.2701-PK-1201B-M - ITF Waste Gas Fan_Motor Operation 1:Running 0:Stopped,BOOL,2,1
+637,,2701-PK-1201B-M_REDAY.PLC,PLC.2701-PK-1201B-M - ITF Waste Gas Fan_Motor ALLReady 1:Ready 0:Not Ready,BOOL,2,1
+638,,2701-PK-1201B-M_SWITCH_ON.PLC,PLC.2701-PK-1201B-M - ITF Waste Gas Fan_MCCB Closed 1:Closed Position 0:Open Position,BOOL,2,1
+639,,2701-PK-1201B-M_DOORSTA.PLC,PLC.2701-PK-1201B-M - ITF Waste Gas Fan_Cabinet Door Closed 1:Cabinet Door Closed 0:Open,BOOL,2,1
+640,,2701-PK-1201B-M_FAULT.PLC,PLC.2701-PK-1201B-M - ITF Waste Gas Fan_General Fault 1:Fault 0:Normal,BOOL,2,1
+641,,2701-PK-1201B-M_EM_STOP.PLC,PLC.2701-PK-1201B-M - ITF Waste Gas Fan_Emergency shutdown 1:Emergency shutdown 0:Normal,BOOL,2,1
+2,,1630-PM-214A_I_A,1630-PM-214A - R-101 Recycle Pumps_Phase A current,32-Bit Floating,3,4
+4,,1630-PM-605A_I_A,1630-PM-605A - R-101 Recycle Pumps_Phase A current,32-Bit Floating,3,4
+6,,1130-PM-305A_I_A,1130-PM-305A - HP Flare K.O.Drum Pump_Phase A current,32-Bit Floating,3,4
+8,,1130-PM-306A_I_A,1130-PM-306A - HP Flare K.O.Drum Pump_Phase A current,32-Bit Floating,3,4
+10,,1162-PM-602_I_A,1162-PM-602 - HP Flare K.O.Drum Pump_Phase A current,32-Bit Floating,3,4
+12,,1162-PM-603_I_A,1162-PM-603 - LP Flare K.O.Drum Pump_Phase A current,32-Bit Floating,3,4
+14,,2202-NK-SG-102-A.03OC_8_I_A,2202-NK-SG-102-A.03OC_8 - LP Flare K.O.Drum Pump_Phase A current,32-Bit Floating,3,4
+16,,1130-PM-311_I_A,1130-PM-311 - LP Flare K.O.Drum Pump_Phase A current,32-Bit Floating,3,4
+18,,1612-PM-611A_I_A,1612-PM-611A - Offgas Absorber Bottom Pump_Phase A current,32-Bit Floating,3,4
+20,,1612-PM-001A_I_A,1612-PM-001A - Offgas Absorber Bottom Pump_Phase A current,32-Bit Floating,3,4
+22,,1612-P-611A.HE-JB_I_A,1612-P-611A.HE-JB - Offgas Absorber Bottom Pump_Phase A current,32-Bit Floating,3,4
+24,,1624-PM-614_I_A,1624-PM-614 - Rich Oil Stripper Bottom Pump_Phase A current,32-Bit Floating,3,4
+26,,2202-NK-SG-102-A.05OC_6_I_A,2202-NK-SG-102-A.05OC_6 - Rich Oil Stripper Bottom Pump_Phase A current,32-Bit Floating,3,4
+28,,1130-PM-302A_I_A,1130-PM-302A - SM Slop Drum water Pump_Phase A current,32-Bit Floating,3,4
+30,,1110-KM-101A-2_I_A,1110-KM-101A-2 - SM Slop Drum water Pump_Phase A current,32-Bit Floating,3,4
+32,,1110-PM-131A_I_A,1110-PM-131A - SM Slop Drum water Pump_Phase A current,32-Bit Floating,3,4
+34,,1110-PM-131B_I_A,1110-PM-131B - SM Slop Drum HC Pump_Phase A current,32-Bit Floating,3,4
+36,,1110-KM-101A.EH02_I_A,1110-KM-101A.EH02 - SM Slop Drum HC Pump_Phase A current,32-Bit Floating,3,4
+38,,1110-PM-133A_I_A,1110-PM-133A - SM Slop Drum HC Pump_Phase A current,32-Bit Floating,3,4
+40,,1110-V-136.EH_I_A,1110-V-136.EH - SPARE_Phase A current,32-Bit Floating,3,4
+42,,1130-KM-301A_I_A,1130-KM-301A - SPARE_Phase A current,32-Bit Floating,3,4
+44,,2202-NK-SG-102-A.07OC_8_I_A,2202-NK-SG-102-A.07OC_8 - SPARE_Phase A current,32-Bit Floating,3,4
+46,,1130-BLM-331A_I_A,1130-BLM-331A - Back-washed pump_Phase A current,32-Bit Floating,3,4
+48,,1130-PM-331B_I_A,1130-PM-331B - Back-washed pump_Phase A current,32-Bit Floating,3,4
+50,,1130-V-332A.EH_I_A,1130-V-332A.EH - Back-washed pump_Phase A current,32-Bit Floating,3,4
+52,,1130-PM-331A_I_A,1130-PM-331A - Desuperheater Water Pump_Phase A current,32-Bit Floating,3,4
+54,,2701-PK-1501A-M_I_A,2701-PK-1501A-M - Desuperheater Water Pump_Phase A current,32-Bit Floating,3,4
+56,,2701-PM-1215_I_A,2701-PM-1215 - oil pump motor_Phase A current,32-Bit Floating,3,4
+58,,2701-PM-1701A_I_A,2701-PM-1701A - oil pump motor_Phase A current,32-Bit Floating,3,4
+60,,2701-AGM-1701_I_A,2701-AGM-1701 - oil pump motor_Phase A current,32-Bit Floating,3,4
+62,,2701-PM-1206A_I_A,2701-PM-1206A - Oil heater junction box_Phase A current,32-Bit Floating,3,4
+64,,2202-NK-SG-102-A.11OC_8_I_A,2202-NK-SG-102-A.11OC_8 - Oil heater junction box_Phase A current,32-Bit Floating,3,4
+66,,1130-PM-301A_I_A,1130-PM-301A - Oil heater junction box_Phase A current,32-Bit Floating,3,4
+68,,1130-PM-303A_I_A,1130-PM-303A - Wasteoil Sump Pump_Phase A current,32-Bit Floating,3,4
+70,,1612-PM-606A_I_A,1612-PM-606A - Wasteoil Sump Pump_Phase A current,32-Bit Floating,3,4
+72,,2701-PM-1202A_I_A,2701-PM-1202A - Wasteoil Sump Pump_Phase A current,32-Bit Floating,3,4
+74,,2701-PM-1201A_I_A,2701-PM-1201A - SPARE_Phase A current,32-Bit Floating,3,4
+76,,2701-PM-1204A_I_A,2701-PM-1204A - SPARE_Phase A current,32-Bit Floating,3,4
+78,,2701-PM-1203_I_A,2701-PM-1203 - Process Condensate Pump_Phase A current,32-Bit Floating,3,4
+80,,2701-PM-1207A_I_A,2701-PM-1207A - Process Condensate Pump_Phase A current,32-Bit Floating,3,4
+82,,2701-PM-1205B_I_A,2701-PM-1205B - Process Condensate Pump_Phase A current,32-Bit Floating,3,4
+84,,2701-PK-1201A-M_OP_F,2701-PK-1201A-M - Oil pump motor 1_Operating Frequency,32-Bit Floating,3,4
+86,,2701-PK-1201A-M_OUT_CUR,2701-PK-1201A-M - Oil pump motor 1_Output Current,32-Bit Floating,3,4
+88,,1115-PM-101B_I_A,1115-PM-101B - Oil pump motor 1_Phase A current,32-Bit Floating,3,4
+90,,1630-PM-214B_I_A,1630-PM-214B - Oil pump motor 1_Phase A current,32-Bit Floating,3,4
+92,,1630-PM-605B_I_A,1630-PM-605B - Oil pump motor 2_Phase A current,32-Bit Floating,3,4
+94,,1130-PM-305B_I_A,1130-PM-305B - Oil pump motor 2_Phase A current,32-Bit Floating,3,4
+96,,1130-PM-306B_I_A,1130-PM-306B - Oil pump motor 2_Phase A current,32-Bit Floating,3,4
+98,,1130-BLM-331B_I_A,1130-BLM-331B - Electric heater for crankcase_Phase A current,32-Bit Floating,3,4
+100,,1130-PM-302B_I_A,1130-PM-302B - Electric heater for crankcase_Phase A current,32-Bit Floating,3,4
+102,,1612-PM-611B_I_A,1612-PM-611B - Electric heater for crankcase_Phase A current,32-Bit Floating,3,4
+104,,1612-PM-001B_I_A,1612-PM-001B - Water pump motor 1_Phase A current,32-Bit Floating,3,4
+106,,1612-P-611B.HE-JB_I_A,1612-P-611B.HE-JB - Water pump motor 1_Phase A current,32-Bit Floating,3,4
+108,,1110-KM-101B-2_I_A,1110-KM-101B-2 - Electric heater for water tank_Phase A current,32-Bit Floating,3,4
+110,,1110-PM-132A_I_A,1110-PM-132A - Electric heater for water tank_Phase A current,32-Bit Floating,3,4
+112,,1110-PM-132B_I_A,1110-PM-132B - Electric heater for water tank_Phase A current,32-Bit Floating,3,4
+114,,1110-KM-101B.EH02_I_A,1110-KM-101B.EH02 - Barring motor_Phase A current,32-Bit Floating,3,4
+116,,2202-NK-SG-102-B.08OC_8_I_A,2202-NK-SG-102-B.08OC_8 - Barring motor_Phase A current,32-Bit Floating,3,4
+118,,1110-PM-133B_I_A,1110-PM-133B - Barring motor_Phase A current,32-Bit Floating,3,4
+120,,1130-KM-301B_I_A,1130-KM-301B - SPARE_Phase A current,32-Bit Floating,3,4
+122,,1130-PM-332A_I_A,1130-PM-332A - SPARE_Phase A current,32-Bit Floating,3,4
+124,,1130-PM-332B_I_A,1130-PM-332B - SPARE_Phase A current,32-Bit Floating,3,4
+126,,1130-V-332B.EH_I_A,1130-V-332B.EH - Oil station fans_Phase A current,32-Bit Floating,3,4
+128,,2701-PK-1501B-M_I_A,2701-PK-1501B-M - Oil station fans_Phase A current,32-Bit Floating,3,4
+130,,2701-PM-1216_I_A,2701-PM-1216 - Oil station fans_Phase A current,32-Bit Floating,3,4
+132,,2202-NK-SG-102-B.12OC_3_I_A,2202-NK-SG-102-B.12OC_3 - Auxiliary oil pump motor_Phase A current,32-Bit Floating,3,4
+134,,2701-PM-1701B_I_A,2701-PM-1701B - Auxiliary oil pump motor_Phase A current,32-Bit Floating,3,4
+136,,2701-PM-1206B_I_A,2701-PM-1206B - Lube oil tank heater_Phase A current,32-Bit Floating,3,4
+138,,2202-NK-SG-102-B.12OC_6_I_A,2202-NK-SG-102-B.12OC_6 - Lube oil tank heater_Phase A current,32-Bit Floating,3,4
+140,,1130-PM-301B_I_A,1130-PM-301B - Lube oil tank heater_Phase A current,32-Bit Floating,3,4
+142,,1130-PM-303B_I_A,1130-PM-303B - Main oil pump motor_Phase A current,32-Bit Floating,3,4
+144,,1612-PM-606B_I_A,1612-PM-606B - Main oil pump motor_Phase A current,32-Bit Floating,3,4
+146,,2701-PM-1202B_I_A,2701-PM-1202B - Main oil pump motor_Phase A current,32-Bit Floating,3,4
+148,,2701-PM-1201B_I_A,2701-PM-1201B - ITF Waste Gas FanAcoustic Enclosure Fan_Phase A current,32-Bit Floating,3,4
+150,,2701-PM-1205S_I_A,2701-PM-1205S - ITF Waste Gas FanAcoustic Enclosure Fan_Phase A current,32-Bit Floating,3,4
+152,,2701-PM-1204B_I_A,2701-PM-1204B - ITF Waste Gas FanAcoustic Enclosure Fan_Phase A current,32-Bit Floating,3,4
+154,,2701-PM-1207B_I_A,2701-PM-1207B - Slop Drum HC Pump_Phase A current,32-Bit Floating,3,4
+156,,2701-PM-1205A_I_A,2701-PM-1205A - Slop Drum HC Pump_Phase A current,32-Bit Floating,3,4
+158,,2701-PK-1201B-M_OP_F,2701-PK-1201B-M - TBC Solution StorageDrum 2701-V-1701Agitator_Operating Frequency,32-Bit Floating,3,4
+1,,1630-PM-214A,"1630-PM-214A HP Flare K.O.Drum Pump : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+2,,1630-PM-605A,"1630-PM-605A LP Flare K.O.Drum Pump : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+3,,1130-PM-305A,"1130-PM-305A Offgas Absorber Bottom Pump : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+4,,1130-PM-306A,"1130-PM-306A Rich Oil Stripper Bottom Pump : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+5,,1162-PM-602,"1162-PM-602 SM Slop Drum water Pump : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+6,,1162-PM-603,"1162-PM-603 SM Slop Drum HC Pump : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+7,,"","SPARE : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+8,,1130-PM-311,"1130-PM-311 Back-washed pump : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+9,,1612-PM-611A,"1612-PM-611A Desuperheater Water Pump : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+10,,1612-PM-001A,"1612-PM-001A oil pump motor : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+11,,1612-P-611A.HE-JB,"1612-P-611A.HE-JB Oil heater junction box : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+12,,1624-PM-614,"1624-PM-614 Wasteoil Sump Pump : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+13,,"","SPARE : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+14,,1130-PM-302A,"1130-PM-302A Process Condensate Pump : MCU TYPE DOL2:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+15,,1110-KM-101A-2,"1110-KM-101A-2 Barring motor : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+16,,1110-PM-131A,"1110-PM-131A Oil pump motor 1 : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+17,,1110-PM-131B,"1110-PM-131B Oil pump motor 2 : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+18,,1110-KM-101A.EH02,"1110-KM-101A.EH02 Electric heater for crankcase : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+19,,1110-PM-133A,"1110-PM-133A Water pump motor 1 : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+20,,1110-V-136.EH,"1110-V-136.EH Electric heater for water tank : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+21,,1130-KM-301A,"1130-KM-301A Barring motor : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+22,,"","SPARE : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+23,,1130-BLM-331A,"1130-BLM-331A Oil station fans : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+24,,1130-PM-331B,"1130-PM-331B Auxiliary oil pump motor : MCU TYPE DOL2:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+25,,1130-V-332A.EH,"1130-V-332A.EH Lube oil tank heater : MCU TYPE DOL2:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+26,,1130-PM-331A,"1130-PM-331A Main oil pump motor : MCU TYPE DOL2:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+27,,2701-PK-1501A-M,"2701-PK-1501A-M ITF Waste Gas FanAcoustic Enclosure Fan : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+28,,2701-PM-1215,"2701-PM-1215 Slop Drum HC Pump : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+29,,2701-PM-1701A,"2701-PM-1701A TBC Solution Dosing pump : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+30,,2701-AGM-1701,"2701-AGM-1701 TBC Solution StorageDrum 2701-V-1701Agitator : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+31,,2701-PM-1206A,"2701-PM-1206A Benzene-Toluene FractionTransfer Pump : MCU TYPE DOL2:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+32,,"","SPARE : MCU TYPE DOL2:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+33,,1130-PM-301A,"1130-PM-301A DM Pump : PLC SSR1:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset Soft Starter ,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+34,,1130-PM-303A,"1130-PM-303A Condensate Stripper Bottom Pump : PLC SSR2:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset Soft Starter ,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+35,,1612-PM-606A,"1612-PM-606A LLP Condensate Pump : PLC SSR3:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset Soft Starter ,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+36,,2701-PM-1202A,"2701-PM-1202A Ethylbenzene transfer pump : PLC SSR1:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset Soft Starter ,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+37,,2701-PM-1201A,"2701-PM-1201A Benzene transfer pump : PLC SSR2:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset Soft Starter ,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+38,,2701-PM-1204A,"2701-PM-1204A DM Transfer Pump : PLC SSR3:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset Soft Starter ,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+39,,2701-PM-1203,"2701-PM-1203 Off-Spec EB Transfer Pump : PLC SSR1:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset Soft Starter ,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+40,,2701-PM-1207A,"2701-PM-1207A Heavy Tar Loading Pump : PLC SSR2:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset Soft Starter ,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+41,,2701-PM-1205B,"2701-PM-1205B SM Transfer Pump : PLC SSR3:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset Soft Starter ,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+42,,2701-PK-1201A-M,2701-PK-1201A-M ITF Waste Gas Fan : VFD Frequency Setting:Hz,16-Bit Unsigned,6,6
+43,,2701-PK-1201A-M,"2701-PK-1201A-M ITF Waste Gas Fan : PLC VFD Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset Soft Starter ,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+44,,1115-PM-101B,"1115-PM-101B R-101 Recycle Pumps : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+45,,1630-PM-214B,"1630-PM-214B HP Flare K.O.Drum Pump : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+46,,1630-PM-605B,"1630-PM-605B LP Flare K.O.Drum Pump : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+47,,1130-PM-305B,"1130-PM-305B Offgas Absorber Bottom Pump : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+48,,1130-PM-306B,"1130-PM-306B Rich Oil Stripper Bottom Pump : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+49,,1130-BLM-331B,"1130-BLM-331B Oil station fans : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+50,,1130-PM-302B,"1130-PM-302B Process Condensate Pump : MCU TYPE DOL2:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+51,,1612-PM-611B,"1612-PM-611B Desuperheater Water Pump : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+52,,1612-PM-001B,"1612-PM-001B oil pump motor : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+53,,1612-P-611B.HE-JB,"1612-P-611B.HE-JB Oil heater junction box : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+54,,1110-KM-101B-2,"1110-KM-101B-2 Barring motor : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+55,,1110-PM-132A,"1110-PM-132A Oil pump motor 1 : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+56,,1110-PM-132B,"1110-PM-132B Oil pump motor 2 : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+57,,1110-KM-101B.EH02,"1110-KM-101B.EH02 Electric heater for crankcase : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+58,,"","SPARE : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+59,,1110-PM-133B,"1110-PM-133B Water pump motor 2 : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+60,,1130-KM-301B,"1130-KM-301B Barring motor : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+61,,1130-PM-332A,"1130-PM-332A Main oil pump motor : MCU TYPE DOL2:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+62,,1130-PM-332B,"1130-PM-332B Auxiliary oil pump motor : MCU TYPE DOL2:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+63,,1130-V-332B.EH,"1130-V-332B.EH Lube oil tank heater : MCU TYPE DOL2:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+64,,2701-PK-1501B-M,"2701-PK-1501B-M ""ITF Waste Gas FanAcoustic Enclosure Fan"" : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+65,,2701-PM-1216,"2701-PM-1216 Slop Drum Water Pump : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+66,,"","SPARE : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+67,,2701-PM-1701B,"2701-PM-1701B TBC Solution Dosing pump : MCU TYPE DOL1: Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+68,,2701-PM-1206B,"2701-PM-1206B Benzene-Toluene FractionTransfer Pump : MCU TYPE DOL2:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+69,,"","SPARE : MCU TYPE DOL2:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+70,,1130-PM-301B,"1130-PM-301B DM Pump : PLC SSR1:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset Soft Starter ,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+71,,1130-PM-303B,"1130-PM-303B Condensate Stripper Bottom Pump : PLC SSR2:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset Soft Starter ,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+72,,1612-PM-606B,"1612-PM-606B LLP Condensate Pump : PLC SSR3:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset Soft Starter ,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+73,,2701-PM-1202B,"2701-PM-1202B Ethylbenzene transfer pump : PLC SSR1:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset Soft Starter ,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+74,,2701-PM-1201B,"2701-PM-1201B Benzene transfer pump : PLC SSR2:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset Soft Starter ,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+75,,2701-PM-1204B,"2701-PM-1204B DM Transfer Pump : PLC SSR3:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset Soft Starter ,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+76,,2701-PM-1207B,"2701-PM-1207B Heavy Tar Loading Pump : PLC SSR1:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset Soft Starter ,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+77,,2701-PM-1205A,"2701-PM-1205A SM Transfer Pump : PLC SSR2:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset Soft Starter ,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+78,,2701-PM-1205S,"2701-PM-1205S SM Transfer Pump : PLC SSR3:Control word Pulse signal
+:Value:1=Stop,2=Start,32=Reset Soft Starter ,1024=Permit,2048=Ban Permit",16-Bit Unsigned,6,6
+79,,2701-PK-1201B-M,2701-PK-1201B-M ITF Waste Gas Fan : VFD Frequency Setting:Hz,16-Bit Unsigned,6,6

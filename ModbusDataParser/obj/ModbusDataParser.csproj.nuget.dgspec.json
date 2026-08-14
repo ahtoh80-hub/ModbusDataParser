@@ -48,7 +48,7 @@
           "dependencies": {
             "EPPlus": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.1.2, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

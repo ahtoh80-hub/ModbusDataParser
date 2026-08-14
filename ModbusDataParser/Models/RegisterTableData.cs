@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace ModbusDataParser.Models
+﻿namespace ModbusDataParser.Models
 {
     public class RegisterTableData
     {
