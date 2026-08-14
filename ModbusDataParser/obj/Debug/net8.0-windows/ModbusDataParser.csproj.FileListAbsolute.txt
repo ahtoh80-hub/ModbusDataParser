@@ -1,0 +1,5 @@
+C:\_Work\VSCode\ModbusDataParser\obj\Debug\net8.0-windows\ModbusDataParser.csproj.AssemblyReference.cache
+C:\_Work\VSCode\ModbusDataParser\obj\Debug\net8.0-windows\ModbusDataParser.GeneratedMSBuildEditorConfig.editorconfig
+C:\_Work\VSCode\ModbusDataParser\obj\Debug\net8.0-windows\ModbusDataParser.AssemblyInfoInputs.cache
+C:\_Work\VSCode\ModbusDataParser\obj\Debug\net8.0-windows\ModbusDataParser.AssemblyInfo.cs
+C:\_Work\VSCode\ModbusDataParser\obj\Debug\net8.0-windows\ModbusDataParser.csproj.CoreCompileInputs.cache

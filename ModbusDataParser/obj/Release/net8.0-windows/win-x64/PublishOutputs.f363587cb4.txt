@@ -1,0 +1,7 @@
+C:\_Work\VSCode\ModbusDataParser\ModbusDataParser\publish\ModbusDataParser.pdb
+C:\_Work\VSCode\ModbusDataParser\ModbusDataParser\publish\D3DCompiler_47_cor3.dll
+C:\_Work\VSCode\ModbusDataParser\ModbusDataParser\publish\PenImc_cor3.dll
+C:\_Work\VSCode\ModbusDataParser\ModbusDataParser\publish\PresentationNative_cor3.dll
+C:\_Work\VSCode\ModbusDataParser\ModbusDataParser\publish\vcruntime140_cor3.dll
+C:\_Work\VSCode\ModbusDataParser\ModbusDataParser\publish\wpfgfx_cor3.dll
+C:\_Work\VSCode\ModbusDataParser\ModbusDataParser\publish\ModbusDataParser.exe
