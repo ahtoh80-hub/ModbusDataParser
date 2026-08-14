@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("© 2026")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Парсер и генератор данных Modbus из Excel")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("3.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+056d590e335b7980a7ffec91b0bf399e9e77b33f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ModbusDataParser")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Modbus Data Parser")]
 [assembly: System.Reflection.AssemblyVersionAttribute("3.0.0.0")]
