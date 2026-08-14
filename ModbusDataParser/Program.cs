@@ -1,5 +1,6 @@
-using System;
+﻿using System;
 using System.Windows.Forms;
+using ModbusDataParser.Forms;
 
 namespace ModbusDataParser
 {
@@ -9,7 +10,7 @@ namespace ModbusDataParser
         static void Main()
         {
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            Application.Run(new MainForm());
         }
     }
 }

@@ -10,15 +10,13 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ТЭКОН-Системы")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("ModbusDataParser")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyCopyrightAttribute("© 2026")]
-[assembly: System.Reflection.AssemblyDescriptionAttribute("Парсер и генератор данных Modbus из Excel")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("3.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+056d590e335b7980a7ffec91b0bf399e9e77b33f")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9839e2ef17bbc20615ade19572f4dab51fee521a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ModbusDataParser")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Modbus Data Parser")]
-[assembly: System.Reflection.AssemblyVersionAttribute("3.0.0.0")]
+[assembly: System.Reflection.AssemblyTitleAttribute("ModbusDataParser")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 
