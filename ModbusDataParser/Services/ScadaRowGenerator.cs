@@ -42,9 +42,13 @@ namespace ModbusDataParser.Services
         }
 
         /// <summary>
-        /// Формирует полный Modbus адрес по стандарту
+        /// Формирует полный Modbus адрес с учетом типа адресации
         /// </summary>
-        private string FormatModbusAddress(int registerType, string? addressBit)
+        /// <param name="registerType">Тип регистра: 0=CO, 1=DI, 3=IR, 4=HR</param>
+        /// <param name="addressBit">Адрес/бит из Excel</param>
+        /// <param name="addressType">Тип адресации: Modicon1Based или Pdu0Based</param>
+        /// <returns>Полный адрес с ведущими нулями</returns>
+        private string FormatModbusAddress(int registerType, string? addressBit, AddressType addressType)
         {
             if (string.IsNullOrEmpty(addressBit))
                 return "";
@@ -61,28 +65,54 @@ namespace ModbusDataParser.Services
             if (!int.TryParse(cleanAddress, out int addrValue))
                 return address;
 
-            // Формируем адрес в зависимости от типа регистра по стандарту Modbus
-            string result;
-            switch (registerType)
+            int resultValue;
+            
+            if (addressType == AddressType.Modicon1Based)
             {
-                case 0: // Coils - диапазон 00001-09999
-                    result = addrValue.ToString("D5");
-                    break;
-                case 1: // Discrete Inputs - диапазон 10001-19999
-                    result = (10000 + addrValue).ToString("D5");
-                    break;
-                case 3: // Input Registers - диапазон 30001-39999
-                    result = (30000 + addrValue).ToString("D5");
-                    break;
-                case 4: // Holding Registers - диапазон 40001-49999
-                    result = (40000 + addrValue).ToString("D5");
-                    break;
-                default:
-                    result = address;
-                    break;
+                // 1-based (Modicon): добавляем смещение в зависимости от типа регистра
+                switch (registerType)
+                {
+                    case 0: // Coils - диапазон 00001-09999
+                        resultValue = addrValue;
+                        break;
+                    case 1: // Discrete Inputs - диапазон 10001-19999
+                        resultValue = 10000 + addrValue;
+                        break;
+                    case 3: // Input Registers - диапазон 30001-39999
+                        resultValue = 30000 + addrValue;
+                        break;
+                    case 4: // Holding Registers - диапазон 40001-49999
+                        resultValue = 40000 + addrValue;
+                        break;
+                    default:
+                        resultValue = addrValue;
+                        break;
+                }
+            }
+            else
+            {
+                // 0-based (PDU): используем адрес как есть (0-based)
+                // Для PDU адресация начинается с 0
+                resultValue = addrValue;
             }
 
-            return result;
+            // Форматируем с ведущими нулями до 5 цифр
+            return resultValue.ToString("D5");
+        }
+
+        /// <summary>
+        /// Получает тип регистра для адресации (используется в Марке и Наименовании)
+        /// </summary>
+        private string GetRegisterTypePrefix(int registerType)
+        {
+            return registerType switch
+            {
+                0 => "CO",
+                1 => "DI",
+                3 => "IR",
+                4 => "HR",
+                _ => "HR"
+            };
         }
 
         public List<ScadaRow> GenerateRows(IEnumerable<ModbusSignal> signals, ScadaExportSettings settings)
@@ -95,17 +125,18 @@ namespace ModbusDataParser.Services
                 if (string.IsNullOrEmpty(signal.AddressBit) && string.IsNullOrEmpty(signal.PlcTag))
                     continue;
 
-                var (regType, _, regNumber) = GetRegisterInfo(signal.AddressBit, signal.RegisterType);
+                var regType = signal.RegisterType ?? 4; // По умолчанию Holding Register
                 var scadaType = GetMappedDataType(signal.DataType ?? "32-Bit Floating");
+                var regTypePrefix = GetRegisterTypePrefix(regType);
 
-                // Полный Modbus адрес для Марки, Наименования и поля "Адрес"
-                var fullModbusAddress = FormatModbusAddress(regNumber, signal.AddressBit);
+                // Полный Modbus адрес с учетом типа адресации
+                var fullModbusAddress = FormatModbusAddress(regType, signal.AddressBit, settings.AddressType);
 
                 // Формируем Марку с полным Modbus адресом
-                var brand = $"_{settings.SubsystemName}_MB_{regType}_{fullModbusAddress}_{scadaType}";
+                var brand = $"_{settings.SubsystemName}_MB_{regTypePrefix}_{fullModbusAddress}_{scadaType}";
                 
                 // Формируем Наименование с полным Modbus адресом
-                var name = $"MB_{regType}_{fullModbusAddress}_{scadaType}";
+                var name = $"MB_{regTypePrefix}_{fullModbusAddress}_{scadaType}";
 
                 var row = new ScadaRow
                 {
@@ -127,7 +158,7 @@ namespace ModbusDataParser.Services
                     EvGroup = settings.EventGroup,
                     PlcName = settings.Controller,
                     PlcAdress = fullModbusAddress,  // Поле "Адрес" в SCADA
-                    PlcGr = regNumber.ToString()
+                    PlcGr = regType.ToString()
                 };
 
                 rows.Add(row);
@@ -135,35 +166,6 @@ namespace ModbusDataParser.Services
             }
 
             return rows;
-        }
-
-        private (string Type, string Prefix, int RegisterType) GetRegisterInfo(string? addressBit, int? registerType)
-        {
-            if (string.IsNullOrEmpty(addressBit)) 
-                return ("HR", "4", 4);
-
-            var address = addressBit.Split('.')[0];
-            
-            if (int.TryParse(address, out int addr))
-            {
-                if (addr >= 1 && addr <= 9999 && registerType == 0)
-                    return ("CO", "0", 0);
-                if (addr >= 10001 && addr <= 19999 && registerType == 1)
-                    return ("DI", "1", 1);
-                if (addr >= 30001 && addr <= 39999 && registerType == 3)
-                    return ("IR", "3", 3);
-                if (addr >= 40001 && addr <= 49999 && registerType == 4)
-                    return ("HR", "4", 4);
-            }
-
-            return registerType switch
-            {
-                0 => ("CO", "0", 0),
-                1 => ("DI", "1", 1),
-                3 => ("IR", "3", 3),
-                4 => ("HR", "4", 4),
-                _ => ("HR", "4", 4)
-            };
         }
     }
 }

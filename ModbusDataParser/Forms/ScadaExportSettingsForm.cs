@@ -14,6 +14,7 @@ namespace ModbusDataParser.Forms
         private TextBox _txtEventGroup = new();
         private TextBox _txtController = new();
         private CheckBox _chkAddInterface = new();
+        private ComboBox _cmbAddressType = new();  // Новый комбобокс
         private Button _btnOk = new();
         private Button _btnCancel = new();
 
@@ -25,7 +26,7 @@ namespace ModbusDataParser.Forms
         private void InitializeComponent()
         {
             this.Text = "SCADA Export Settings";
-            this.Size = new Size(500, 420);
+            this.Size = new Size(500, 480);
             this.StartPosition = FormStartPosition.CenterParent;
             this.FormBorderStyle = FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
@@ -35,7 +36,7 @@ namespace ModbusDataParser.Forms
             {
                 Dock = DockStyle.Fill,
                 ColumnCount = 2,
-                RowCount = 10,
+                RowCount = 11,
                 Padding = new Padding(10),
                 AutoSize = true
             };
@@ -61,6 +62,18 @@ namespace ModbusDataParser.Forms
 
             AddLabelAndControl(mainPanel, row++, "Controller:",
                 _txtController = new TextBox { Width = 250, Text = "", Anchor = AnchorStyles.Left });
+
+            // Новое поле: тип адресации
+            AddLabelAndControl(mainPanel, row++, "Address Type:",
+                _cmbAddressType = new ComboBox 
+                { 
+                    Width = 250, 
+                    DropDownStyle = ComboBoxStyle.DropDownList,
+                    Anchor = AnchorStyles.Left
+                });
+            _cmbAddressType.Items.Add("1-based (Modicon) - 40001, 30001, ...");
+            _cmbAddressType.Items.Add("0-based (PDU) - 0, 1, 2, ...");
+            _cmbAddressType.SelectedIndex = 0;
 
             _chkAddInterface = new CheckBox
             {
@@ -118,7 +131,8 @@ namespace ModbusDataParser.Forms
                 Classifier = _txtClassifier.Text ?? "[ВСЕ]",
                 EventGroup = _txtEventGroup.Text ?? "[ВСЕ]",
                 Controller = _txtController.Text ?? "",
-                AddInterfaceParameters = _chkAddInterface.Checked
+                AddInterfaceParameters = _chkAddInterface.Checked,
+                AddressType = _cmbAddressType.SelectedIndex == 0 ? AddressType.Modicon1Based : AddressType.Pdu0Based
             };
         }
     }

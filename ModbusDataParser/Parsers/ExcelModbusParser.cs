@@ -45,6 +45,7 @@ namespace ModbusDataParser.Parsers
 
             int startRow = FindHeaderRow(sheet, new[] { "№ п/п", "№", "1", "2" });
 
+            // Начинаем со следующей строки после заголовка
             for (int row = startRow + 1; row <= sheet.Dimension.Rows; row++)
             {
                 var firstCell = GetCellText(sheet, row, 1);
@@ -87,15 +88,21 @@ namespace ModbusDataParser.Parsers
 
             int startRow = FindHeaderRow(sheet, new[] { "№", "№ п/п", "1", "2" });
 
-            for (int row = startRow + 1; row <= sheet.Dimension.Rows; row++)
+            // Начинаем со следующей строки после заголовка
+            // Убеждаемся, что не выходим за пределы
+            int dataStartRow = startRow + 1;
+            
+            for (int row = dataStartRow; row <= sheet.Dimension.Rows; row++)
             {
                 var firstCell = GetCellText(sheet, row, 1);
+                
+                // Проверяем, является ли строка числом (№)
                 if (string.IsNullOrEmpty(firstCell)) continue;
-                if (!int.TryParse(firstCell, out _)) continue;
+                if (!int.TryParse(firstCell, out int number)) continue;
 
                 var signal = new ModbusSignal
                 {
-                    Number = int.Parse(firstCell),
+                    Number = number,
                     ProjectFunctionalDesignation = GetCellText(sheet, row, 2),
                     PlcTag = GetCellText(sheet, row, 3),
                     Description = GetCellText(sheet, row, 4),
@@ -120,6 +127,7 @@ namespace ModbusDataParser.Parsers
                     SourceFile = Path.GetFileName(filePath)
                 };
 
+                // Добавляем сигнал, если есть тег или описание
                 if (!string.IsNullOrEmpty(signal.PlcTag) || !string.IsNullOrEmpty(signal.Description))
                 {
                     result.Add(signal);
@@ -133,15 +141,39 @@ namespace ModbusDataParser.Parsers
         {
             if (sheet.Dimension == null) return 1;
 
-            for (int row = 1; row <= Math.Min(15, sheet.Dimension.Rows); row++)
+            int maxRows = Math.Min(20, sheet.Dimension.Rows);
+            
+            for (int row = 1; row <= maxRows; row++)
             {
                 var cellValue = GetCellText(sheet, row, 1);
+                
+                // Проверяем точное совпадение
                 foreach (var header in possibleHeaders)
                 {
                     if (cellValue == header)
                         return row;
                 }
+                
+                // Проверяем частичное совпадение (для случаев с пробелами)
+                foreach (var header in possibleHeaders)
+                {
+                    if (cellValue.Contains(header) || header.Contains(cellValue))
+                        return row;
+                }
             }
+            
+            // Если не нашли заголовок, ищем первую строку с числом в первом столбце
+            // и считаем, что предыдущая строка - заголовок
+            for (int row = 2; row <= Math.Min(20, sheet.Dimension.Rows); row++)
+            {
+                var cellValue = GetCellText(sheet, row, 1);
+                if (int.TryParse(cellValue, out _))
+                {
+                    // Предыдущая строка - заголовок
+                    return row - 1;
+                }
+            }
+            
             return 1;
         }
 
